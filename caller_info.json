@@ -1,0 +1,52 @@
+[
+  {
+    "phoneNumber": "+19452658226",
+    "name": "Charlie",
+    "location": "Los Angeles"
+  },
+  {
+    "phoneNumber": "+15670734873",
+    "name": "Charlie",
+    "location": "Los Angeles"
+  },
+  {
+    "phoneNumber": "+13682319174",
+    "name": "Charlie",
+    "location": "Chicago"
+  },
+  {
+    "phoneNumber": "+15137876592",
+    "name": "Charlie",
+    "location": "New York"
+  },
+  {
+    "phoneNumber": "+14329978601",
+    "name": "Bob",
+    "location": "Los Angeles"
+  },
+  {
+    "phoneNumber": "+14591178937",
+    "name": "Bob",
+    "location": "New York"
+  },
+  {
+    "phoneNumber": "+15438817658",
+    "name": "Bob",
+    "location": "Houston"
+  },
+  {
+    "phoneNumber": "+16193375319",
+    "name": "Charlie",
+    "location": "Chicago"
+  },
+  {
+    "phoneNumber": "+16766711171",
+    "name": "Bob",
+    "location": "New York"
+  },
+  {
+    "phoneNumber": "+12952741558",
+    "name": "Bob",
+    "location": "Chicago"
+  }
+]

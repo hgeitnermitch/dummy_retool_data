@@ -1,0 +1,62 @@
+[
+  {
+    "phone_number": "+17165249142",
+    "line_type": "mobile",
+    "is_international": false,
+    "can_receive_sms": true
+  },
+  {
+    "phone_number": "+18892200306",
+    "line_type": "landline",
+    "is_international": true,
+    "can_receive_sms": true
+  },
+  {
+    "phone_number": "+12447137351",
+    "line_type": "landline",
+    "is_international": false,
+    "can_receive_sms": true
+  },
+  {
+    "phone_number": "+12872812198",
+    "line_type": "mobile",
+    "is_international": false,
+    "can_receive_sms": false
+  },
+  {
+    "phone_number": "+15793663381",
+    "line_type": "landline",
+    "is_international": false,
+    "can_receive_sms": true
+  },
+  {
+    "phone_number": "+15086964455",
+    "line_type": "landline",
+    "is_international": true,
+    "can_receive_sms": true
+  },
+  {
+    "phone_number": "+16783427313",
+    "line_type": "mobile",
+    "is_international": false,
+    "can_receive_sms": false
+  },
+  {
+    "phone_number": "+19433754061",
+    "line_type": "unknown",
+    "is_international": true,
+    "can_receive_sms": true
+  },
+  {
+    "phone_number": "+13409293144",
+    "line_type": "landline",
+    "is_international": false,
+    "can_receive_sms": false
+  },
+  {
+    "phone_number": "+15135904876",
+    "line_type": "mobile",
+    "is_international": false,
+    "can_receive_sms": false
+  }
+]

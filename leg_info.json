@@ -1,0 +1,312 @@
+[
+  {
+    "startTime": "2025-07-11T17:31:52.951703",
+    "duration": 483,
+    "type": "Video",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+19452658226",
+      "name": "Charlie",
+      "location": "Los Angeles"
+    },
+    "from": {
+      "phoneNumber": "+15438817658",
+      "name": "Bob",
+      "location": "Houston"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/88233530-234f-4c3d-afb2-febcacd3100f",
+      "id": "3f7e3cda-9565-49e8-992c-173e2b6f3e33",
+      "type": "Automatic",
+      "contentUri": "https://example.com/audio/0475be4e-762a-4437-b722-12557de984b3.mp3"
+    },
+    "telephonySessionId": "8f8b4d08-7677-4d68-8cee-a8390f2a6e61",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/740535af-d7c2-4ce9-8f96-5fa43f8dc9ae",
+      "id": 121
+    }
+  },
+  {
+    "startTime": "2025-07-10T17:31:52.951767",
+    "duration": 267,
+    "type": "Voice",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Missed",
+    "to": {
+      "phoneNumber": "+16193375319",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+19452658226",
+      "name": "Charlie",
+      "location": "Los Angeles"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/37ee1dcb-8629-4d39-81d7-7bb5182eed20",
+      "id": "d9e957fb-5536-42d7-a4d2-2ff3fb3457d9",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/22706328-37a3-4813-b9f4-43e0e7f3841d.mp3"
+    },
+    "telephonySessionId": "e04f3490-69e7-491f-bae6-112aa13f42e4",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/740535af-d7c2-4ce9-8f96-5fa43f8dc9ae",
+      "id": 121
+    }
+  },
+  {
+    "startTime": "2025-07-07T17:31:52.951815",
+    "duration": 33,
+    "type": "Video",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Missed",
+    "to": {
+      "phoneNumber": "+15438817658",
+      "name": "Bob",
+      "location": "Houston"
+    },
+    "from": {
+      "phoneNumber": "+16766711171",
+      "name": "Bob",
+      "location": "New York"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/9fc46d9d-34ec-407d-b25d-82b3a1e56ddb",
+      "id": "ae637212-05ea-481a-b5fd-fb8c3708f913",
+      "type": "Automatic",
+      "contentUri": "https://example.com/audio/a3137ea8-d3a6-4fee-881c-7ede4f24ca1f.mp3"
+    },
+    "telephonySessionId": "43f2f659-4e7a-4b71-b363-128d0fea2192",
+    "transport": "VoIP",
+    "legType": "Local",
+    "extension": {
+      "uri": "https://example.com/extension/934c9cda-2e0f-4c6b-bcca-1e07e5bffcbd",
+      "id": 167
+    }
+  },
+  {
+    "startTime": "2025-07-01T17:31:52.951850",
+    "duration": 577,
+    "type": "Voice",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Completed",
+    "to": {
+      "phoneNumber": "+15438817658",
+      "name": "Bob",
+      "location": "Houston"
+    },
+    "from": {
+      "phoneNumber": "+14329978601",
+      "name": "Bob",
+      "location": "Los Angeles"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/15bbdbef-ba27-4e27-9a3a-156225669a90",
+      "id": "e4455492-13c8-4a00-8046-240e645878c5",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/71d3b17a-03b5-4b1e-b7e8-f0fd77d3496c.mp3"
+    },
+    "telephonySessionId": "c07385aa-07cd-46f1-94e8-d35fdd9b815d",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/95de303b-c0af-4bcf-b28e-4fbab9a6fe39",
+      "id": 423
+    }
+  },
+  {
+    "startTime": "2025-07-10T17:31:52.951913",
+    "duration": 329,
+    "type": "Voice",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+13682319174",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+13682319174",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/77c8dbe1-4fd7-420a-92ae-229cc91d565a",
+      "id": "58e0f01f-d191-487b-bca1-6cc68cb81e54",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/157aa79c-378e-46eb-92b3-d2100dc5bb52.mp3"
+    },
+    "telephonySessionId": "fb139fce-d0a0-48c2-bf27-401079f183ff",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/740535af-d7c2-4ce9-8f96-5fa43f8dc9ae",
+      "id": 121
+    }
+  },
+  {
+    "startTime": "2025-07-09T17:31:52.951955",
+    "duration": 492,
+    "type": "Video",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+14591178937",
+      "name": "Bob",
+      "location": "New York"
+    },
+    "from": {
+      "phoneNumber": "+16766711171",
+      "name": "Bob",
+      "location": "New York"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/9fc46d9d-34ec-407d-b25d-82b3a1e56ddb",
+      "id": "ae637212-05ea-481a-b5fd-fb8c3708f913",
+      "type": "Automatic",
+      "contentUri": "https://example.com/audio/a3137ea8-d3a6-4fee-881c-7ede4f24ca1f.mp3"
+    },
+    "telephonySessionId": "d9a53830-8c06-43b9-9ee3-a93578572337",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/472ec569-8362-49d3-bfa4-d1578b81322f",
+      "id": 446
+    }
+  },
+  {
+    "startTime": "2025-07-12T17:31:52.951995",
+    "duration": 569,
+    "type": "Video",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+15438817658",
+      "name": "Bob",
+      "location": "Houston"
+    },
+    "from": {
+      "phoneNumber": "+15137876592",
+      "name": "Charlie",
+      "location": "New York"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/56fb0f92-0f83-4057-b52c-538cd86afde5",
+      "id": "15fb377b-9d6a-439f-85d4-1b953df90269",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/ae43f8ae-64fd-4645-825d-6350f29e43a7.mp3"
+    },
+    "telephonySessionId": "aa0ecfa7-bc72-4e75-9efd-2aaea155d548",
+    "transport": "VoIP",
+    "legType": "Local",
+    "extension": {
+      "uri": "https://example.com/extension/0620f554-d86d-4602-95e0-64fac1d969a0",
+      "id": 622
+    }
+  },
+  {
+    "startTime": "2025-07-12T17:31:52.952013",
+    "duration": 328,
+    "type": "Video",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Missed",
+    "to": {
+      "phoneNumber": "+13682319174",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+13682319174",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/9fc46d9d-34ec-407d-b25d-82b3a1e56ddb",
+      "id": "ae637212-05ea-481a-b5fd-fb8c3708f913",
+      "type": "Automatic",
+      "contentUri": "https://example.com/audio/a3137ea8-d3a6-4fee-881c-7ede4f24ca1f.mp3"
+    },
+    "telephonySessionId": "f3246d98-9c3e-47b9-80a8-e94b07b14c95",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/d9c7b697-dab9-4123-b06f-a7c0fdf6e3ab",
+      "id": 971
+    }
+  },
+  {
+    "startTime": "2025-06-30T17:31:52.952062",
+    "duration": 594,
+    "type": "Voice",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Completed",
+    "to": {
+      "phoneNumber": "+15670734873",
+      "name": "Charlie",
+      "location": "Los Angeles"
+    },
+    "from": {
+      "phoneNumber": "+14591178937",
+      "name": "Bob",
+      "location": "New York"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/9fc46d9d-34ec-407d-b25d-82b3a1e56ddb",
+      "id": "ae637212-05ea-481a-b5fd-fb8c3708f913",
+      "type": "Automatic",
+      "contentUri": "https://example.com/audio/a3137ea8-d3a6-4fee-881c-7ede4f24ca1f.mp3"
+    },
+    "telephonySessionId": "de69c036-52db-4f82-803f-6b465a7757ab",
+    "transport": "VoIP",
+    "legType": "Local",
+    "extension": {
+      "uri": "https://example.com/extension/0620f554-d86d-4602-95e0-64fac1d969a0",
+      "id": 622
+    }
+  },
+  {
+    "startTime": "2025-07-28T17:31:52.952103",
+    "duration": 121,
+    "type": "Video",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Completed",
+    "to": {
+      "phoneNumber": "+16766711171",
+      "name": "Bob",
+      "location": "New York"
+    },
+    "from": {
+      "phoneNumber": "+16193375319",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/15bbdbef-ba27-4e27-9a3a-156225669a90",
+      "id": "e4455492-13c8-4a00-8046-240e645878c5",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/71d3b17a-03b5-4b1e-b7e8-f0fd77d3496c.mp3"
+    },
+    "telephonySessionId": "665c4e75-1819-487c-93e3-413f66a52ba9",
+    "transport": "VoIP",
+    "legType": "International",
+    "extension": {
+      "uri": "https://example.com/extension/71fbf6e4-9d16-4e4b-9af7-1bf7ed6e96ef",
+      "id": 722
+    }
+  }
+]

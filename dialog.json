@@ -1,0 +1,97 @@
+[
+  {
+    "user_id": "78c9df5f-8eba-4a80-9122-1c4f40c26023",
+    "care_id": "1807969a-23e1-4785-baa6-e54cb5622949",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-07-17T17:28:29.878835",
+    "end_time": null,
+    "summary": "Discussed patient vitals and medication adherence.",
+    "score": 0.37,
+    "protocol_id": "e276b3c8-13b1-4239-a800-f7ed866141b4",
+    "conversation_ids": [
+      "f3fc682e-37ad-4b99-a6ed-3163bf3a3c3a"
+    ],
+    "program": "RPM",
+    "care_team_role": "RN",
+    "domain": "medications",
+    "trigger_type": "avatar",
+    "encounter_id": "aabfc553-6ba0-437f-8ac2-a232cac153ac"
+  },
+  {
+    "user_id": "9b7e4a7d-0fc7-4026-a36d-6167735e1afc",
+    "care_id": "7cbbd8ae-37f2-4213-bc7a-7e55a0744510",
+    "topic": "Vitals Check",
+    "status": "aborted",
+    "start_time": "2025-07-24T17:28:29.878889",
+    "end_time": null,
+    "summary": "Discussed patient vitals and medication adherence.",
+    "score": 0.57,
+    "protocol_id": "8e74af1a-03ed-492b-81cd-42c615ea512f",
+    "conversation_ids": [
+      "8d7fb1a5-d772-4ed3-a6cf-71b7800ff7ea"
+    ],
+    "program": "RPM",
+    "care_team_role": "RN",
+    "domain": "medications",
+    "trigger_type": "avatar",
+    "encounter_id": "ea8c41b3-8c71-42ee-a5b5-b1f2c0563284"
+  },
+  {
+    "user_id": "7fff7dad-f91b-4739-aecf-ba0544913922",
+    "care_id": "d9b6e44b-0db2-4bbd-8f77-7c1c4e794d74",
+    "topic": "Vitals Check",
+    "status": "completed",
+    "start_time": "2025-07-23T17:28:29.878927",
+    "end_time": null,
+    "summary": "Discussed patient vitals and medication adherence.",
+    "score": 0.98,
+    "protocol_id": "03d3a4ec-71ea-47b5-9296-cf7790855121",
+    "conversation_ids": [
+      "96c74d19-50b9-4d8a-9566-e8edde93db8b"
+    ],
+    "program": "RPM",
+    "care_team_role": "RN",
+    "domain": "medications",
+    "trigger_type": "avatar",
+    "encounter_id": "c3f54200-5609-4bdb-845e-18c799b9cfd4"
+  },
+  {
+    "user_id": "6bda8bb3-a497-423b-88cf-55862032f784",
+    "care_id": "76c3df74-e193-47ad-91d0-d6819cbdded0",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-07-24T17:28:29.878965",
+    "end_time": null,
+    "summary": "Discussed patient vitals and medication adherence.",
+    "score": 0.84,
+    "protocol_id": "436b6900-6c69-4d30-a292-8cd17ece9a94",
+    "conversation_ids": [
+      "82c0f40d-0807-42e1-948b-07941a94ee45"
+    ],
+    "program": "RPM",
+    "care_team_role": "RN",
+    "domain": "medications",
+    "trigger_type": "avatar",
+    "encounter_id": "170abaa2-e9e2-4fa6-8675-e051dbbcc1fe"
+  },
+  {
+    "user_id": "bc43fafd-9a71-4308-b5d5-742f8fa0bdbc",
+    "care_id": "cba2e902-2031-4fa4-a382-2b95178e80e6",
+    "topic": "Medication Adherence",
+    "status": "completed",
+    "start_time": "2025-07-03T17:28:29.879002",
+    "end_time": null,
+    "summary": "Discussed patient vitals and medication adherence.",
+    "score": 0.34,
+    "protocol_id": "16ee417d-47a6-4adb-a242-bd61f74aa2d4",
+    "conversation_ids": [
+      "bcac2718-39b7-4321-8d88-1299ce62f52c"
+    ],
+    "program": "RPM",
+    "care_team_role": "RN",
+    "domain": "medications",
+    "trigger_type": "avatar",
+    "encounter_id": "b524ab1d-6bed-4389-9632-90c7f1fe8897"
+  }
+]

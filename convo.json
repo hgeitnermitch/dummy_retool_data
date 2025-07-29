@@ -1,0 +1,152 @@
+[
+  {
+    "user_id": "656eddf2-2ebb-4055-b3ed-d6f89156070b",
+    "care_id": "d6e9eb71-6442-49de-b013-5498419d3b38",
+    "sender": "user",
+    "message": "Remember to take your meds.",
+    "intent": "vitals_review",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878168",
+    "program": "Behavioral Health",
+    "sentiment": "receptive",
+    "source": "user",
+    "protocol_id": "35b6d40d-089f-4e8f-b354-d563e26c7190"
+  },
+  {
+    "user_id": "1da7e944-a145-4533-90dc-0661dd3120a7",
+    "care_id": "d3147b36-57b8-4641-af7b-00c3e5bc865b",
+    "sender": "user",
+    "message": "How are you feeling today?",
+    "intent": "vitals_review",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878198",
+    "program": "Behavioral Health",
+    "sentiment": "frustrated",
+    "source": "user",
+    "protocol_id": "b8988e07-78d1-493a-bc6d-41bed6d139ce"
+  },
+  {
+    "user_id": "90f0a2d5-549e-4c0c-8037-e5775f742be0",
+    "care_id": "4e3aebbd-ad9c-40fd-8369-73b0afb21851",
+    "sender": "user",
+    "message": "Remember to take your meds.",
+    "intent": "vitals_review",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878221",
+    "program": "RPM",
+    "sentiment": "frustrated",
+    "source": "system_trigger",
+    "protocol_id": "57e74c76-f65c-4f03-957c-b401a0867f15"
+  },
+  {
+    "user_id": "0cd7f140-0302-4ef8-9e84-3609d89f9788",
+    "care_id": "dc9527d1-306e-4589-a6ae-1c4bbefd70b9",
+    "sender": "system_trigger",
+    "message": "How are you feeling today?",
+    "intent": "medication_check",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878251",
+    "program": "Behavioral Health",
+    "sentiment": "receptive",
+    "source": "system_trigger",
+    "protocol_id": "0c802054-f1dc-4e89-817f-8832aad59bb8"
+  },
+  {
+    "user_id": "a6c4e196-5067-4cc2-8b98-e91b2a0dd0ad",
+    "care_id": "68ff4f44-972a-47c5-a728-8f7d963537e1",
+    "sender": "user",
+    "message": "How are you feeling today?",
+    "intent": null,
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878308",
+    "program": "RPM",
+    "sentiment": "neutral",
+    "source": "system_trigger",
+    "protocol_id": "8aa81400-23b5-403b-bcc6-ce0b50ded287"
+  },
+  {
+    "user_id": "13642ab3-2488-4008-ab48-ff7c03f56500",
+    "care_id": "7189f77f-7974-4751-801d-33a1e82a2449",
+    "sender": "avatar",
+    "message": "How are you feeling today?",
+    "intent": null,
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878332",
+    "program": "RPM",
+    "sentiment": "neutral",
+    "source": "system_trigger",
+    "protocol_id": "499d95aa-ce5b-4261-85dd-10e26cc34cdd"
+  },
+  {
+    "user_id": "6fa41ba6-0f38-40e2-97fd-eb84fee60346",
+    "care_id": "0a9a49c0-9a04-4833-8466-87e30a02aa98",
+    "sender": "user",
+    "message": "How are you feeling today?",
+    "intent": "vitals_review",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878355",
+    "program": "RPM",
+    "sentiment": "neutral",
+    "source": "system_trigger",
+    "protocol_id": "b5d37b92-67bc-4e26-abe1-c598fc9fb0a4"
+  },
+  {
+    "user_id": "615d2c2d-c812-4c16-9391-968e0e471d45",
+    "care_id": "1b2b83b4-2eef-4f8c-88b1-0b2cfed84b63",
+    "sender": "system_trigger",
+    "message": "Remember to take your meds.",
+    "intent": null,
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878384",
+    "program": "Behavioral Health",
+    "sentiment": "receptive",
+    "source": "user",
+    "protocol_id": "9bf9a5a2-8f74-456b-a8d1-151d7f62afa4"
+  },
+  {
+    "user_id": "d8cee297-7511-4701-8d36-7152c3de88c8",
+    "care_id": "fb845435-8935-4754-888e-351503421dba",
+    "sender": "system_trigger",
+    "message": "Remember to take your meds.",
+    "intent": "medication_check",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878427",
+    "program": "RPM",
+    "sentiment": "frustrated",
+    "source": "system_trigger",
+    "protocol_id": "f02fe2eb-b94c-4287-976e-337dff294eac"
+  },
+  {
+    "user_id": "660505e1-a8cb-44b8-a22f-7b3ec4dbf239",
+    "care_id": "ea94fda1-8bf5-4510-bccf-af7ea773e873",
+    "sender": "user",
+    "message": "Remember to take your meds.",
+    "intent": "vitals_review",
+    "context": {
+      "topic": "blood pressure"
+    },
+    "timestamp": "2025-07-29T17:28:29.878461",
+    "program": "Behavioral Health",
+    "sentiment": "neutral",
+    "source": "avatar",
+    "protocol_id": "f1254833-9f64-4aa5-a434-2d633b7af2b4"
+  }
+]

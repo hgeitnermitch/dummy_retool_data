@@ -1,0 +1,92 @@
+[
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.774748,
+    "longitude": -89.583086
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.730248,
+    "longitude": -89.864296
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.192566,
+    "longitude": -89.999999
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.971562,
+    "longitude": -89.77669
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.281473,
+    "longitude": -89.927745
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.286174,
+    "longitude": -89.764651
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.654272,
+    "longitude": -89.142768
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.594026,
+    "longitude": -89.002753
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.612959,
+    "longitude": -89.490967
+  },
+  {
+    "raw_address": "123 Main St, Springfield, IL 62704",
+    "street": "123 Main St",
+    "city": "Springfield",
+    "state": "IL",
+    "zip_code": "62704",
+    "latitude": 39.247206,
+    "longitude": -89.762215
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "system": "SNOMED",
+    "code": "202807",
+    "display": "Sleep Apnea"
+  },
+  {
+    "system": "SNOMED",
+    "code": "382813",
+    "display": "Hypertension"
+  },
+  {
+    "system": "SNOMED",
+    "code": "863864",
+    "display": "Hypertension"
+  },
+  {
+    "system": "SNOMED",
+    "code": "325761",
+    "display": "Sleep Apnea"
+  },
+  {
+    "system": "SNOMED",
+    "code": "423057",
+    "display": "Diabetes"
+  },
+  {
+    "system": "SNOMED",
+    "code": "393546",
+    "display": "Diabetes"
+  },
+  {
+    "system": "SNOMED",
+    "code": "294529",
+    "display": "Hypertension"
+  },
+  {
+    "system": "SNOMED",
+    "code": "274200",
+    "display": "Diabetes"
+  },
+  {
+    "system": "SNOMED",
+    "code": "958362",
+    "display": "Sleep Apnea"
+  },
+  {
+    "system": "SNOMED",
+    "code": "716490",
+    "display": "Sleep Apnea"
+  }
+]

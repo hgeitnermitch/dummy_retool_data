@@ -1,0 +1,342 @@
+[
+  {
+    "uri": "https://example.com/call/019ad040-7f14-4236-9a67-879ee6b03048",
+    "id": "ee393e09-2528-43e1-afb9-d061d77ae6e3",
+    "sessionId": "e05bc080-edd2-4c56-b135-e93f79133f7f",
+    "startTime": "2025-07-02T17:28:29.875709",
+    "duration": 589,
+    "type": "Video",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Completed",
+    "to": {
+      "phoneNumber": "+12297133247",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+19996884427",
+      "name": "Frank",
+      "location": "Dallas"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/ac5fe585-012b-4696-ab8c-0a7602c6f22a",
+      "id": "acbd8d4d-6c1c-4a94-9b37-ea58c10af9b2",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/82be9169-d302-4e0f-8335-2f6dcd02431c.mp3"
+    },
+    "telephonySessionId": "f19c7526-cd19-4a8c-94f4-318aea8cd683",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.875770",
+    "billing": {
+      "costIncluded": 2.98,
+      "costPurchased": 6.47
+    }
+  },
+  {
+    "uri": "https://example.com/call/644fdfef-4081-42d5-8807-bca13a472d83",
+    "id": "b3cd7aa1-a38e-41c0-84d6-d8cf94d33400",
+    "sessionId": "c3a9f418-df81-469a-90bb-a4b1a2818b2c",
+    "startTime": "2025-07-08T17:28:29.875901",
+    "duration": 387,
+    "type": "Voice",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Completed",
+    "to": {
+      "phoneNumber": "+17797152787",
+      "name": "Dana",
+      "location": "New York"
+    },
+    "from": {
+      "phoneNumber": "+16150188965",
+      "name": "Grace",
+      "location": "Phoenix"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/658045db-e7a5-4366-b0a5-c0c76c186e0d",
+      "id": "720dd6a7-c7c3-4a41-bcca-33c94828a7c8",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/b55a8539-07ed-4cad-828b-6fcec07c441e.mp3"
+    },
+    "telephonySessionId": "a4c2bb03-39e3-487c-8dbd-c541909ca549",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.875923",
+    "billing": {
+      "costIncluded": 3.28,
+      "costPurchased": 0.86
+    }
+  },
+  {
+    "uri": "https://example.com/call/5dfbbb1f-d452-436d-ab04-b26922323765",
+    "id": "9a216c62-b62b-4973-abaa-33657f227ff6",
+    "sessionId": "e1333e2b-f06a-4527-8c69-db814d0b9bbe",
+    "startTime": "2025-06-30T17:28:29.875984",
+    "duration": 130,
+    "type": "Voice",
+    "direction": "Outbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+13088313680",
+      "name": "Bob",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+15664172137",
+      "name": "Frank",
+      "location": "Miami"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/bccec8a0-2a13-438d-bc17-bd5ca33a049f",
+      "id": "d9708b8a-ae48-4906-b34a-33c4e10ca268",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/41cff731-f980-4bc9-aaa0-7e75fa32f9a5.mp3"
+    },
+    "telephonySessionId": "53240bfb-ca3c-4ef6-b6b6-185cc1431fef",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.876002",
+    "billing": {
+      "costIncluded": 2.01,
+      "costPurchased": 8.84
+    }
+  },
+  {
+    "uri": "https://example.com/call/fcd9b4d9-fc4f-42ae-851a-ff556b57194a",
+    "id": "5bd77778-83e4-4533-85bc-0c772c8cd864",
+    "sessionId": "78011955-55c2-44df-a7e4-674d2318f29b",
+    "startTime": "2025-07-05T17:28:29.876072",
+    "duration": 315,
+    "type": "Voice",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Missed",
+    "to": {
+      "phoneNumber": "+12596916056",
+      "name": "Alice",
+      "location": "Los Angeles"
+    },
+    "from": {
+      "phoneNumber": "+17724887479",
+      "name": "Hank",
+      "location": "Miami"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/46c62c66-be6d-419c-8d5c-e78ea5d4b77f",
+      "id": "44c9f03f-76b9-411d-b74e-10fb67119683",
+      "type": "Automatic",
+      "contentUri": "https://example.com/audio/064c8eba-622e-4b85-86e9-e082fbf42a9f.mp3"
+    },
+    "telephonySessionId": "9d25e8fc-311c-4d03-b3b8-87529ad4ee58",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.876086",
+    "billing": {
+      "costIncluded": 3.85,
+      "costPurchased": 1.51
+    }
+  },
+  {
+    "uri": "https://example.com/call/8461d7d4-ac15-4c77-a561-272342fa9eb0",
+    "id": "83d879cb-2016-48d8-a745-1bf03c64f855",
+    "sessionId": "26072c99-f54a-4de5-b260-8020f8b45bd0",
+    "startTime": "2025-07-04T17:28:29.876151",
+    "duration": 270,
+    "type": "Voice",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+18827254715",
+      "name": "Dana",
+      "location": "New York"
+    },
+    "from": {
+      "phoneNumber": "+17360272149",
+      "name": "Frank",
+      "location": "Dallas"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/9c2c7903-0af8-4a42-b677-a08544aead59",
+      "id": "2865e1b6-b09c-4e07-bae6-e49db05bbd93",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/39d63663-884f-4b75-839b-91747a990c9b.mp3"
+    },
+    "telephonySessionId": "d9f193aa-1b3e-4874-9fc6-ffdd6ce11f67",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.876254",
+    "billing": {
+      "costIncluded": 2.88,
+      "costPurchased": 3.91
+    }
+  },
+  {
+    "uri": "https://example.com/call/8b6a1ed8-501a-4f89-9ccb-8b55e67b0874",
+    "id": "282ae34b-dc1e-4627-87dc-1ecceb104504",
+    "sessionId": "d749b181-1644-4ba0-9110-2cdee8df5390",
+    "startTime": "2025-07-15T17:28:29.876365",
+    "duration": 190,
+    "type": "Voice",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+18834547792",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+19244542073",
+      "name": "Frank",
+      "location": "Boston"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/a0c7dd48-fc32-4816-a12b-7e8741c89349",
+      "id": "ad456678-8a27-4d53-b9e4-0574e42a5e32",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/e619e0c9-303d-445e-861a-5fe19c346fea.mp3"
+    },
+    "telephonySessionId": "8c289cba-83b8-4d24-8f1c-de1ac7bdbefb",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.876397",
+    "billing": {
+      "costIncluded": 6.49,
+      "costPurchased": 3.27
+    }
+  },
+  {
+    "uri": "https://example.com/call/7158de70-3795-4a62-aca9-ff34de3cdf5a",
+    "id": "c5d74e63-e6f6-4fd1-b23e-ccca098e0f78",
+    "sessionId": "6b9ad031-54ad-42c3-b82e-d5b91f4febe7",
+    "startTime": "2025-07-14T17:28:29.876446",
+    "duration": 417,
+    "type": "Voice",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Missed",
+    "to": {
+      "phoneNumber": "+16444939843",
+      "name": "Alice",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+19784842597",
+      "name": "Eve",
+      "location": "Dallas"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/d5e676a6-6580-48cf-84ce-e8c567cb472e",
+      "id": "cdb748be-d97d-42d5-9175-a884e2401832",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/e551f1e3-3e55-44e0-bbf7-be932f2f467e.mp3"
+    },
+    "telephonySessionId": "4055210e-9563-4c22-b384-e0922cfb83c9",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.876460",
+    "billing": {
+      "costIncluded": 8.8,
+      "costPurchased": 1.07
+    }
+  },
+  {
+    "uri": "https://example.com/call/c5036827-a20f-48a8-b393-3440ce252dbe",
+    "id": "fe585b20-386a-4605-9ed4-3c6f409cc498",
+    "sessionId": "a27aba90-9be9-415f-bf18-13aa6f1fe0ad",
+    "startTime": "2025-07-05T17:28:29.876779",
+    "duration": 217,
+    "type": "Video",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+14064898674",
+      "name": "Dana",
+      "location": "New York"
+    },
+    "from": {
+      "phoneNumber": "+16586521238",
+      "name": "Grace",
+      "location": "Phoenix"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/597af785-9825-49ed-b7ee-bc19bc58cafd",
+      "id": "59811466-1dfd-4b83-97f3-129e17b70cc9",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/951f443b-ec5f-49c7-81be-595cbef094cc.mp3"
+    },
+    "telephonySessionId": "7b8f928c-ef9c-47a0-bcd9-21a15f0604f7",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.876821",
+    "billing": {
+      "costIncluded": 4.58,
+      "costPurchased": 2.2
+    }
+  },
+  {
+    "uri": "https://example.com/call/d9d52cda-3624-4c33-aba3-287433c91251",
+    "id": "7df2b981-7015-49a2-971b-9c0bcde27699",
+    "sessionId": "1b85926c-1919-49c3-9a82-156d1a2130ad",
+    "startTime": "2025-07-29T17:28:29.876897",
+    "duration": 134,
+    "type": "Video",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Voicemail",
+    "to": {
+      "phoneNumber": "+17590061833",
+      "name": "Charlie",
+      "location": "Chicago"
+    },
+    "from": {
+      "phoneNumber": "+12959963749",
+      "name": "Frank",
+      "location": "Dallas"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/a06d072a-28c7-4a9b-8834-63af0e06ed1b",
+      "id": "cf3c908d-4e59-414e-84c6-26fecd0d82e7",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/f9d2781f-c2a7-45da-a9d5-94fb5b71a4f5.mp3"
+    },
+    "telephonySessionId": "f72717f7-dbf9-4d12-9c7d-76dde072c154",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.877012",
+    "billing": {
+      "costIncluded": 4.02,
+      "costPurchased": 8.91
+    }
+  },
+  {
+    "uri": "https://example.com/call/b1f7b148-b8cc-4148-acfd-8a24b851be31",
+    "id": "747fdf5f-5616-4da8-bfec-7c74a953edbd",
+    "sessionId": "49170ca8-97eb-4b1a-882d-6117482f65ed",
+    "startTime": "2025-07-22T17:28:29.877184",
+    "duration": 129,
+    "type": "Voice",
+    "direction": "Inbound",
+    "action": "Phone Call",
+    "result": "Completed",
+    "to": {
+      "phoneNumber": "+16248243721",
+      "name": "Dana",
+      "location": "New York"
+    },
+    "from": {
+      "phoneNumber": "+16721038661",
+      "name": "Hank",
+      "location": "Miami"
+    },
+    "recording": {
+      "uri": "https://example.com/recording/cab85225-51d9-47a9-a3a2-23c668432a30",
+      "id": "e81ddec7-69fb-4005-9f04-f594a1e33278",
+      "type": "OnDemand",
+      "contentUri": "https://example.com/audio/51e631f3-f98d-4df2-bf1b-e8ab6dbddb98.mp3"
+    },
+    "telephonySessionId": "11d6c706-bacd-4ef8-bd1c-b54a0e8f836c",
+    "transport": "VoIP",
+    "lastModifiedTime": "2025-07-29T17:28:29.877223",
+    "billing": {
+      "costIncluded": 8.5,
+      "costPurchased": 0.21
+    }
+  }
+]
