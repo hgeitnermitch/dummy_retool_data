@@ -4,7 +4,7 @@
     "last_name": "Brown",
     "full_name": null,
     "person_type": "patient",
-    "role": null,
+    "role": "care navigator",
     "programs": [
       CCM,
       RPM,
