@@ -6,10 +6,9 @@
     "person_type": "patient",
     "role": "care navigator",
     "programs": [
-      CCM,
-      RPM,
-      PCM
-    ],
+      "CCM", 
+      "RPM", 
+      "PCM"],
     "user_id": "4634a4e3-e627-4dd8-b66a-34c070d6a92f",
     "care_id": "4ff8be1b-48dc-45a3-bdc5-9cc533fbddc6",
     "phone_number": "+12293459746",
