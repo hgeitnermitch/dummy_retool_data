@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "ea20b0b7-bc25-4ca3-8c13-5333ea561be9",
+    "convo_id": "54597e5d-b38e-451d-8e4e-65b12984e659",
+    "care_id": "95726105-93b3-4e75-ad9b-5b9955c1c09c",
+    "patient_id": "477ece84-ab1c-4fff-b9e0-d8e1664732e6",
+    "navigator_id": "880212ff-03d5-4639-8521-217f8a860251",
+    "messages": [
+      {
+        "id": "ff2c4970-1118-491e-8ce2-049053490808",
+        "speaker_id": "477ece84-ab1c-4fff-b9e0-d8e1664732e6",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-12-25T10:15:42+00:00"
+      },
+      {
+        "id": "7d7223ae-fb8e-48d0-ba68-7f7cb095bd7a",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-12-25T10:15:57+00:00"
+      },
+      {
+        "id": "7cfe24ce-39c2-4ad7-95ca-42c21c3718e3",
+        "speaker_id": "477ece84-ab1c-4fff-b9e0-d8e1664732e6",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-12-25T10:16:12+00:00"
+      }
+    ]
+  },
+  {
+    "id": "96c8c03b-4987-4b9e-ad8b-100aeb32a73d",
+    "convo_id": "12598a0f-4ab9-4e3e-a03d-b631c27248a3",
+    "care_id": "8105293f-2b02-4e41-9036-908cb86be1c8",
+    "patient_id": "d428958d-56fe-4b39-8d3f-4329aa306e5f",
+    "navigator_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+    "messages": [
+      {
+        "id": "63efc413-26a1-48ad-b95f-99d3da886cf7",
+        "speaker_id": "d428958d-56fe-4b39-8d3f-4329aa306e5f",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2025-04-25T04:27:21+00:00"
+      },
+      {
+        "id": "98199014-2318-4ac8-a549-c3a74291b426",
+        "speaker_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-04-25T04:27:36+00:00"
+      },
+      {
+        "id": "90546894-7b9e-47cb-a6f8-66c4a7580da5",
+        "speaker_id": "d428958d-56fe-4b39-8d3f-4329aa306e5f",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-04-25T04:27:51+00:00"
+      }
+    ]
+  },
+  {
+    "id": "2b2c6185-c992-427b-b34f-7d91349b9764",
+    "convo_id": "de0e8163-71ce-4330-bba2-9f650fb4856f",
+    "care_id": "12895141-eaf3-48a1-ad7d-4f3dda9fff0a",
+    "patient_id": "281196da-4182-4b6a-8a72-40a0781e95b0",
+    "navigator_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+    "messages": [
+      {
+        "id": "89f64688-390f-4ce4-a018-b62bdd706397",
+        "speaker_id": "281196da-4182-4b6a-8a72-40a0781e95b0",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2025-10-24T06:58:35+00:00"
+      },
+      {
+        "id": "10932b17-52cb-4e51-8187-bc7d762a056d",
+        "speaker_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2025-10-24T06:58:50+00:00"
+      },
+      {
+        "id": "c436a76c-ccf2-434f-ae99-0ee112185642",
+        "speaker_id": "281196da-4182-4b6a-8a72-40a0781e95b0",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-10-24T06:59:05+00:00"
+      }
+    ]
+  },
+  {
+    "id": "894d7f1f-70e3-47b5-8b54-6a530cc6cab0",
+    "convo_id": "e2eaa2ba-4774-44ee-a407-771c4b3eb192",
+    "care_id": "3a4266ae-0e8a-458a-ae96-b7ff919c563f",
+    "patient_id": "3e04a8fa-e777-4df5-b56d-ca7f8bb9c155",
+    "navigator_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+    "messages": [
+      {
+        "id": "b2592216-853d-455d-9742-bb03e8bc92fe",
+        "speaker_id": "3e04a8fa-e777-4df5-b56d-ca7f8bb9c155",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-10-28T21:46:15+00:00"
+      },
+      {
+        "id": "ada297fe-cc0e-4a0f-8366-6400dc7067e3",
+        "speaker_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2024-10-28T21:46:30+00:00"
+      },
+      {
+        "id": "1b592c1c-79b6-42b7-96f0-5d8e86f2570f",
+        "speaker_id": "3e04a8fa-e777-4df5-b56d-ca7f8bb9c155",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-10-28T21:46:45+00:00"
+      }
+    ]
+  },
+  {
+    "id": "ad5c14a0-96db-4ffc-944f-2961ed5a710a",
+    "convo_id": "c48821ef-d197-4c5d-b4cd-9687ed7455c2",
+    "care_id": "467200b9-5321-44f6-bbc2-8d39cf144fe3",
+    "patient_id": "e284272b-b80b-4d8a-8e5f-31ef6e684089",
+    "navigator_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+    "messages": [
+      {
+        "id": "900cb8a8-517d-4970-8fc4-f9bec29cebed",
+        "speaker_id": "e284272b-b80b-4d8a-8e5f-31ef6e684089",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-06-27T22:32:33+00:00"
+      },
+      {
+        "id": "cbb26d07-b7a0-4b9e-91ff-97d6a888819f",
+        "speaker_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2024-06-27T22:32:48+00:00"
+      },
+      {
+        "id": "51437f5a-d73b-4da5-8791-b35ac6bc6f5e",
+        "speaker_id": "e284272b-b80b-4d8a-8e5f-31ef6e684089",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-06-27T22:33:03+00:00"
+      }
+    ]
+  },
+  {
+    "id": "80832b30-d94e-479a-bc59-8267e2fac5c4",
+    "convo_id": "ab2665a0-1fda-4b5c-9355-ed4c2d82b6b9",
+    "care_id": "b130e6b0-1b3b-411d-a880-ef36a94d0622",
+    "patient_id": "72707150-8c9c-41fd-8d94-408ecc51fd29",
+    "navigator_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+    "messages": [
+      {
+        "id": "36da161b-4a98-4603-be19-ac5f35bd4dad",
+        "speaker_id": "72707150-8c9c-41fd-8d94-408ecc51fd29",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2024-04-01T12:17:54+00:00"
+      },
+      {
+        "id": "d2b6629e-d0ca-4674-bfc5-253ef7494269",
+        "speaker_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2024-04-01T12:18:09+00:00"
+      },
+      {
+        "id": "9f95a99a-7088-4ac6-9e90-ca2e2d2350c2",
+        "speaker_id": "72707150-8c9c-41fd-8d94-408ecc51fd29",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-04-01T12:18:24+00:00"
+      }
+    ]
+  },
+  {
+    "id": "99df8476-9dc5-43ae-b3a0-3824d1e3859a",
+    "convo_id": "39d43a11-6e54-4a2e-bd59-f00f7a82a0d9",
+    "care_id": "688cd470-f90f-4021-9f3c-3fba3fd4559b",
+    "patient_id": "4fafeaf5-53f9-45ce-aa4b-0e2473d4530b",
+    "navigator_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+    "messages": [
+      {
+        "id": "6eb94f09-6803-4e6e-a99b-f5a386e6f76e",
+        "speaker_id": "4fafeaf5-53f9-45ce-aa4b-0e2473d4530b",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2025-08-31T05:35:27+00:00"
+      },
+      {
+        "id": "d0c2e4d1-771e-4e45-9f8f-f167b313b2c3",
+        "speaker_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+        "speaker_role": "care_navigator",
+        "text": "Your goal is 6,000 steps today\u2014you're almost there!",
+        "timestamp": "2025-08-31T05:35:42+00:00"
+      },
+      {
+        "id": "febe10ee-3460-4411-bba9-ea61e8361e05",
+        "speaker_id": "4fafeaf5-53f9-45ce-aa4b-0e2473d4530b",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-08-31T05:35:57+00:00"
+      }
+    ]
+  },
+  {
+    "id": "e0d29528-4e84-4102-b0a4-d9bc3d219c88",
+    "convo_id": "f7b99594-4c36-4086-bedd-9c635c5b427d",
+    "care_id": "24345e84-c025-4f6c-bfb1-45466374a27e",
+    "patient_id": "9584f55f-85e9-4132-9ea0-4adae04a2ced",
+    "navigator_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+    "messages": [
+      {
+        "id": "d1b10449-0f9c-4cc9-9a29-17eea3fda2cb",
+        "speaker_id": "9584f55f-85e9-4132-9ea0-4adae04a2ced",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-10-29T07:06:41+00:00"
+      },
+      {
+        "id": "37684b68-d79f-49cb-9246-5b5f7e178f11",
+        "speaker_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-10-29T07:06:56+00:00"
+      },
+      {
+        "id": "2f6c3f24-c9e1-42a1-b500-084e818d0f55",
+        "speaker_id": "9584f55f-85e9-4132-9ea0-4adae04a2ced",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-10-29T07:07:11+00:00"
+      }
+    ]
+  },
+  {
+    "id": "2c97cf45-9dcd-4f36-9252-401dcc7e06a1",
+    "convo_id": "bc009076-ec3f-4959-8cdb-c16690e48c03",
+    "care_id": "0e8ded9f-2eae-42da-99b2-84e9987e03a3",
+    "patient_id": "e6b0d954-9ad6-486a-b093-9c73c74ded5a",
+    "navigator_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+    "messages": [
+      {
+        "id": "c43159b9-54b5-441c-8e77-f2b7a047256f",
+        "speaker_id": "e6b0d954-9ad6-486a-b093-9c73c74ded5a",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-07-21T01:41:22+00:00"
+      },
+      {
+        "id": "f1408830-07d7-4ec4-b29f-28a4223de7b5",
+        "speaker_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2024-07-21T01:41:37+00:00"
+      },
+      {
+        "id": "a1cfa3cf-4517-4963-85fe-1a1cd29341e6",
+        "speaker_id": "e6b0d954-9ad6-486a-b093-9c73c74ded5a",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-07-21T01:41:52+00:00"
+      }
+    ]
+  },
+  {
+    "id": "778a7318-78a5-4515-a87f-651c832e6de9",
+    "convo_id": "b9032742-5809-4588-a128-488dd31183c5",
+    "care_id": "d9278c9c-2782-4691-86a8-103425ba5c59",
+    "patient_id": "644573f8-6e1f-4df8-8764-7c89f1b94ce6",
+    "navigator_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+    "messages": [
+      {
+        "id": "88842385-e999-4d51-8b64-0c5e1b5cfe53",
+        "speaker_id": "644573f8-6e1f-4df8-8764-7c89f1b94ce6",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2025-10-17T23:07:32+00:00"
+      },
+      {
+        "id": "52d4e92a-c956-4007-a8d9-2f6e06ce10d9",
+        "speaker_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2025-10-17T23:07:47+00:00"
+      },
+      {
+        "id": "9def0e2a-e411-4bc8-baaa-c74564957f23",
+        "speaker_id": "644573f8-6e1f-4df8-8764-7c89f1b94ce6",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-10-17T23:08:02+00:00"
+      }
+    ]
+  },
+  {
+    "id": "7906d442-f4d1-4040-a3bd-7db741e98942",
+    "convo_id": "0fa0c70b-937d-4374-b3d1-b76c0828fb24",
+    "care_id": "dff18633-dc4f-46a3-8c61-942453900cf3",
+    "patient_id": "59f3cfa7-2f39-4b01-a648-d3fc5dcf696b",
+    "navigator_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+    "messages": [
+      {
+        "id": "a5501212-d462-48ec-b322-c4886c55182a",
+        "speaker_id": "59f3cfa7-2f39-4b01-a648-d3fc5dcf696b",
+        "speaker_role": "patient",
+        "text": "Should I take my medication before breakfast or after?",
+        "timestamp": "2024-10-10T03:08:41+00:00"
+      },
+      {
+        "id": "a6935146-4dd2-44f0-8b29-d8fa18691b66",
+        "speaker_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2024-10-10T03:08:56+00:00"
+      },
+      {
+        "id": "90daf2b0-59ec-4294-83f7-5936d9fb3c3a",
+        "speaker_id": "59f3cfa7-2f39-4b01-a648-d3fc5dcf696b",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-10-10T03:09:11+00:00"
+      }
+    ]
+  },
+  {
+    "id": "8c80dea3-e3fc-47d8-ba02-30b1ede5c180",
+    "convo_id": "37abdca8-00b9-4f62-a2c8-17b2394abc4d",
+    "care_id": "e308934e-5d01-493a-8abe-f53bf3776b95",
+    "patient_id": "23881765-4f1e-4573-bfb8-6741ee29f2c6",
+    "navigator_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+    "messages": [
+      {
+        "id": "9c40718b-6fa3-414a-aa9d-8f4291c5fd36",
+        "speaker_id": "23881765-4f1e-4573-bfb8-6741ee29f2c6",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-02-20T10:23:25+00:00"
+      },
+      {
+        "id": "1dafa924-787e-490c-b83b-fdfb1f5dbd60",
+        "speaker_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2025-02-20T10:23:40+00:00"
+      },
+      {
+        "id": "d7c4f142-849a-441b-acc8-3b84480546ed",
+        "speaker_id": "23881765-4f1e-4573-bfb8-6741ee29f2c6",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-02-20T10:23:55+00:00"
+      }
+    ]
+  },
+  {
+    "id": "c0425b84-14b1-4d04-bd78-931eca7591c5",
+    "convo_id": "c0686729-ae16-4a3b-8423-486e0dea6f48",
+    "care_id": "e439355f-cc4d-406e-97db-f6ed604c59e5",
+    "patient_id": "8097fd22-d46b-474e-91a8-9cb18eeaec1b",
+    "navigator_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+    "messages": [
+      {
+        "id": "c896b95b-e3ae-43f5-a3ca-4f4ae9871dfe",
+        "speaker_id": "8097fd22-d46b-474e-91a8-9cb18eeaec1b",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-08-31T19:26:03+00:00"
+      },
+      {
+        "id": "2f1b9765-f7ad-4cd9-8a95-06c0b4409e72",
+        "speaker_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-08-31T19:26:18+00:00"
+      },
+      {
+        "id": "39486aeb-bacf-4839-9e01-aefc7bcc247e",
+        "speaker_id": "8097fd22-d46b-474e-91a8-9cb18eeaec1b",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-08-31T19:26:33+00:00"
+      }
+    ]
+  },
+  {
+    "id": "2cecd5d1-9d2f-46af-bb9f-e90c70fca543",
+    "convo_id": "60b4fdec-f657-4d0d-9cbb-e3731eed4a15",
+    "care_id": "179a3101-d1b3-46e8-aa12-b354551dfd55",
+    "patient_id": "80fa2c85-3aea-4619-a0db-c0b0d565874e",
+    "navigator_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+    "messages": [
+      {
+        "id": "8eea7f20-972b-4814-8e97-feefc461da41",
+        "speaker_id": "80fa2c85-3aea-4619-a0db-c0b0d565874e",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-08-14T06:48:39+00:00"
+      },
+      {
+        "id": "ae1198e2-fa78-4c9b-80d7-2d2922c4fa17",
+        "speaker_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-08-14T06:48:54+00:00"
+      },
+      {
+        "id": "e3769e18-4c56-4e18-bf28-445805092cd1",
+        "speaker_id": "80fa2c85-3aea-4619-a0db-c0b0d565874e",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-08-14T06:49:09+00:00"
+      }
+    ]
+  },
+  {
+    "id": "5bbfc742-9a0b-4769-a82e-2c1e0a3c0a55",
+    "convo_id": "ca5a5021-d5ce-4548-b38f-0a01f35ce800",
+    "care_id": "a63974d5-e6d9-4b9c-85ae-04f5a3f2b196",
+    "patient_id": "091bea5d-b984-4549-b450-086e501f822d",
+    "navigator_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+    "messages": [
+      {
+        "id": "c7dedfde-8aa2-4d05-982e-30cd5e6c0fdd",
+        "speaker_id": "091bea5d-b984-4549-b450-086e501f822d",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-02-14T03:17:44+00:00"
+      },
+      {
+        "id": "3a0c9a43-bf95-4f72-b4e9-4c1c3e5c685e",
+        "speaker_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2024-02-14T03:17:59+00:00"
+      },
+      {
+        "id": "aa9b01e6-f587-4e80-9796-84052eb5a690",
+        "speaker_id": "091bea5d-b984-4549-b450-086e501f822d",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-02-14T03:18:14+00:00"
+      }
+    ]
+  },
+  {
+    "id": "b844d175-97bc-4dfd-b410-0bef6c736b5a",
+    "convo_id": "d086def0-e08f-45ee-bc9b-b7d37d35e5fa",
+    "care_id": "40ab87f3-a110-479b-b547-cbdbb7c5a539",
+    "patient_id": "2e87a879-2f2e-4c64-8bfa-d54f65d54ce1",
+    "navigator_id": "880212ff-03d5-4639-8521-217f8a860251",
+    "messages": [
+      {
+        "id": "23eafed0-e715-41b9-b9c0-e6e02a18a8f9",
+        "speaker_id": "2e87a879-2f2e-4c64-8bfa-d54f65d54ce1",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-12-11T23:51:09+00:00"
+      },
+      {
+        "id": "575f7540-4582-4956-8aa6-b7ced7b7069b",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-12-11T23:51:24+00:00"
+      },
+      {
+        "id": "7de2126f-e9aa-4cc0-95e4-f63065c42be8",
+        "speaker_id": "2e87a879-2f2e-4c64-8bfa-d54f65d54ce1",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-12-11T23:51:39+00:00"
+      }
+    ]
+  },
+  {
+    "id": "eb5211f2-1a7c-4456-925a-23a43c93a69d",
+    "convo_id": "7e7a217c-28cd-4dc7-a7c0-a714713e3473",
+    "care_id": "fca31a09-1904-4155-8841-61c668ea342f",
+    "patient_id": "0bb72f3e-8739-441a-877e-48632ee23a35",
+    "navigator_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+    "messages": [
+      {
+        "id": "28a81e56-b3dd-4cfd-9dd6-c001c68a3af1",
+        "speaker_id": "0bb72f3e-8739-441a-877e-48632ee23a35",
+        "speaker_role": "patient",
+        "text": "Should I take my medication before breakfast or after?",
+        "timestamp": "2024-08-16T16:39:15+00:00"
+      },
+      {
+        "id": "036f5373-9461-401c-bd39-b89fbab19d96",
+        "speaker_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+        "speaker_role": "care_navigator",
+        "text": "Your goal is 6,000 steps today\u2014you're almost there!",
+        "timestamp": "2024-08-16T16:39:30+00:00"
+      },
+      {
+        "id": "bd7608a4-5ee4-4932-810b-b6626e6d84b6",
+        "speaker_id": "0bb72f3e-8739-441a-877e-48632ee23a35",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-08-16T16:39:45+00:00"
+      }
+    ]
+  },
+  {
+    "id": "202384e8-35ee-4790-960e-c61f3a9ac01e",
+    "convo_id": "56cd983c-78a8-47e0-9571-4924ac3583d7",
+    "care_id": "6cfca1da-ffcd-49a9-a90f-fbf4b081a7da",
+    "patient_id": "6b296c50-4649-4afe-87f6-a95dc0065f29",
+    "navigator_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+    "messages": [
+      {
+        "id": "5b123820-d1f5-4a3a-906d-96c0ba24aede",
+        "speaker_id": "6b296c50-4649-4afe-87f6-a95dc0065f29",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-06-24T21:04:31+00:00"
+      },
+      {
+        "id": "96892cf5-8fb5-467c-a043-68a3f6940543",
+        "speaker_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2025-06-24T21:04:46+00:00"
+      },
+      {
+        "id": "fc2b80fa-c1db-4df0-afc1-a321bb6072e5",
+        "speaker_id": "6b296c50-4649-4afe-87f6-a95dc0065f29",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-06-24T21:05:01+00:00"
+      }
+    ]
+  },
+  {
+    "id": "1f77e5f3-37de-4470-861e-97012b06e274",
+    "convo_id": "0d357ff2-acab-4346-85ac-9d1da562fba0",
+    "care_id": "6e4fe9ea-1576-4abe-8876-388dcbf6bb6a",
+    "patient_id": "1adb526e-e2f1-4377-aaea-4f96db7cc228",
+    "navigator_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+    "messages": [
+      {
+        "id": "cdeb4c93-826f-4e2d-a632-2a57cd3dd772",
+        "speaker_id": "1adb526e-e2f1-4377-aaea-4f96db7cc228",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2024-03-03T08:09:33+00:00"
+      },
+      {
+        "id": "b4014c51-57b0-4eca-bd51-5344bf6db17a",
+        "speaker_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-03-03T08:09:48+00:00"
+      },
+      {
+        "id": "017ddcb2-cc90-4df0-beb9-630ff0e1d23c",
+        "speaker_id": "1adb526e-e2f1-4377-aaea-4f96db7cc228",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-03-03T08:10:03+00:00"
+      }
+    ]
+  },
+  {
+    "id": "de3e7847-e882-4696-b690-bddfc18fb719",
+    "convo_id": "d2e94d27-47b9-4566-a448-a460801e4f3a",
+    "care_id": "e6dd018b-4ded-453f-b84f-bf1cdd8263c1",
+    "patient_id": "c545b8a9-609d-4ee8-9eb5-6c89183b26c5",
+    "navigator_id": "880212ff-03d5-4639-8521-217f8a860251",
+    "messages": [
+      {
+        "id": "5bf770fe-3939-41ef-bfda-205ff7d6b844",
+        "speaker_id": "c545b8a9-609d-4ee8-9eb5-6c89183b26c5",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-03-18T18:49:43+00:00"
+      },
+      {
+        "id": "3b0863cb-9592-42d0-8970-5d0632c8b001",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "care_navigator",
+        "text": "Your goal is 6,000 steps today\u2014you're almost there!",
+        "timestamp": "2024-03-18T18:49:58+00:00"
+      },
+      {
+        "id": "55007979-2496-4ad2-90e4-b598bb7c6bfb",
+        "speaker_id": "c545b8a9-609d-4ee8-9eb5-6c89183b26c5",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-03-18T18:50:13+00:00"
+      }
+    ]
+  },
+  {
+    "id": "836bcccf-0f17-4e4d-88ae-7117dba29957",
+    "convo_id": "b885cfcf-9e21-4aa3-8a48-7e62b044c67a",
+    "care_id": "0bb043cf-64ed-4f39-88f9-6147d356305f",
+    "patient_id": "d7ad5399-dbbf-4f8f-8a4c-35c9c948fee2",
+    "navigator_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+    "messages": [
+      {
+        "id": "65f0c78c-aefa-49fc-8c8b-70e5e2f3910f",
+        "speaker_id": "d7ad5399-dbbf-4f8f-8a4c-35c9c948fee2",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-01-05T16:28:07+00:00"
+      },
+      {
+        "id": "bc39738d-4726-4355-89c7-2cd66e37dcbe",
+        "speaker_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-01-05T16:28:22+00:00"
+      },
+      {
+        "id": "8d4a3fc8-e099-4550-bb29-d101c08c45f2",
+        "speaker_id": "d7ad5399-dbbf-4f8f-8a4c-35c9c948fee2",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-01-05T16:28:37+00:00"
+      }
+    ]
+  },
+  {
+    "id": "3ecfd30a-69c7-4d49-9251-c7c6aa5ded4d",
+    "convo_id": "f1ecfbf1-bbf2-4075-b12a-034126487f8f",
+    "care_id": "b236aafa-185f-4b0b-8aa8-1e03ae2ca224",
+    "patient_id": "8062338d-7e50-4cc5-8237-c8caa5a6a518",
+    "navigator_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+    "messages": [
+      {
+        "id": "ec922f60-0ba1-4f1a-9282-ca60880a6ffc",
+        "speaker_id": "8062338d-7e50-4cc5-8237-c8caa5a6a518",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-07-20T13:39:57+00:00"
+      },
+      {
+        "id": "be3b48f8-30b6-451d-9138-085a3a74783c",
+        "speaker_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-07-20T13:40:12+00:00"
+      },
+      {
+        "id": "2962e9ff-c0a9-41c0-ba43-d465ca5b53bb",
+        "speaker_id": "8062338d-7e50-4cc5-8237-c8caa5a6a518",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-07-20T13:40:27+00:00"
+      }
+    ]
+  },
+  {
+    "id": "05fffa3d-620e-4e6d-b64a-e399cd2ec921",
+    "convo_id": "121ac2e5-29d1-4bc4-a449-9717f0c143cc",
+    "care_id": "6ff2c7bc-7285-4a74-ba8c-52dbb1d015fb",
+    "patient_id": "4d4fa29a-db72-46ca-aadc-6b1d03d5cf74",
+    "navigator_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+    "messages": [
+      {
+        "id": "42eb9e8d-d100-4e55-9b72-f86a86bb7b3e",
+        "speaker_id": "4d4fa29a-db72-46ca-aadc-6b1d03d5cf74",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2024-10-19T21:06:20+00:00"
+      },
+      {
+        "id": "3446470a-680a-4c57-a987-3e1f4a36ba6c",
+        "speaker_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2024-10-19T21:06:35+00:00"
+      },
+      {
+        "id": "9c85929c-542d-433f-a175-466de629f443",
+        "speaker_id": "4d4fa29a-db72-46ca-aadc-6b1d03d5cf74",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-10-19T21:06:50+00:00"
+      }
+    ]
+  },
+  {
+    "id": "765a38ed-7b9c-43ad-8dd1-309100187e6f",
+    "convo_id": "a9656527-37ed-43ec-9963-f6cb9e8985bd",
+    "care_id": "6d6e3b01-15d0-4b62-ba5c-c19474af295e",
+    "patient_id": "e8e2808c-2af7-4275-b31e-ef5386e63172",
+    "navigator_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+    "messages": [
+      {
+        "id": "88dae276-35f8-4320-b00d-f48dfba33fa9",
+        "speaker_id": "e8e2808c-2af7-4275-b31e-ef5386e63172",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2024-06-18T03:46:05+00:00"
+      },
+      {
+        "id": "c82072f6-3551-4051-a8b4-29bd04c9e019",
+        "speaker_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2024-06-18T03:46:20+00:00"
+      },
+      {
+        "id": "875b0750-3977-43fe-9858-c6505cfff5a0",
+        "speaker_id": "e8e2808c-2af7-4275-b31e-ef5386e63172",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-06-18T03:46:35+00:00"
+      }
+    ]
+  },
+  {
+    "id": "92fc9276-c3be-46d0-8762-28c4e0cd7041",
+    "convo_id": "8d81e6d0-38c8-455e-8092-77df537b1249",
+    "care_id": "b936aa4e-4926-4a9a-a87a-ecaeec196796",
+    "patient_id": "f3df0a53-dc07-414b-8027-3ea67dbfcdea",
+    "navigator_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+    "messages": [
+      {
+        "id": "ddb8fd99-e1df-48ba-83e8-30e159091b39",
+        "speaker_id": "f3df0a53-dc07-414b-8027-3ea67dbfcdea",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2025-03-08T08:16:41+00:00"
+      },
+      {
+        "id": "f3d5bdd9-679c-498a-b383-4c297ec77e8b",
+        "speaker_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2025-03-08T08:16:56+00:00"
+      },
+      {
+        "id": "bd9f1aac-3943-4a52-a38a-27bce520f062",
+        "speaker_id": "f3df0a53-dc07-414b-8027-3ea67dbfcdea",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-03-08T08:17:11+00:00"
+      }
+    ]
+  },
+  {
+    "id": "841a9e80-62e3-4004-ab22-c83038c77777",
+    "convo_id": "b1dd8958-179c-49b0-b085-d7cca4090397",
+    "care_id": "f59dc99f-0630-43dd-ac3f-57aa6a17b59a",
+    "patient_id": "421df8d8-3fec-48b6-8ef2-a867f39b1ff6",
+    "navigator_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+    "messages": [
+      {
+        "id": "e649f9c9-64ce-4643-a42d-f1a52ba682f8",
+        "speaker_id": "421df8d8-3fec-48b6-8ef2-a867f39b1ff6",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2025-04-22T18:15:28+00:00"
+      },
+      {
+        "id": "377579fb-d54c-4da3-a559-4a11d4e272aa",
+        "speaker_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-04-22T18:15:43+00:00"
+      },
+      {
+        "id": "525b47ce-7f52-4397-81ee-4a904768fa28",
+        "speaker_id": "421df8d8-3fec-48b6-8ef2-a867f39b1ff6",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-04-22T18:15:58+00:00"
+      }
+    ]
+  },
+  {
+    "id": "0ed60b8d-db40-4456-960e-bafa39e2d3be",
+    "convo_id": "6f297bee-6b2a-4146-95fb-38f87f9014f5",
+    "care_id": "e1e7bafd-0ce2-480f-80ec-b5ccfc6a83b8",
+    "patient_id": "157138c9-b4d7-43ed-b351-267434638dda",
+    "navigator_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+    "messages": [
+      {
+        "id": "951cea34-6ad4-45aa-ae82-0c23ed044db5",
+        "speaker_id": "157138c9-b4d7-43ed-b351-267434638dda",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2024-08-11T16:59:02+00:00"
+      },
+      {
+        "id": "4125743d-64be-42b4-83fa-f6a23e7070bb",
+        "speaker_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-08-11T16:59:17+00:00"
+      },
+      {
+        "id": "b5d13064-da96-46f3-993f-1a5899665c33",
+        "speaker_id": "157138c9-b4d7-43ed-b351-267434638dda",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-08-11T16:59:32+00:00"
+      }
+    ]
+  },
+  {
+    "id": "a69a4f28-fccb-4732-97d0-006f08d3e6c3",
+    "convo_id": "890f4a81-fde4-4bf0-bc5b-63434f11ae14",
+    "care_id": "abd31223-6de3-4eb5-9e7a-446e80865f72",
+    "patient_id": "72ddaa1e-c058-4729-8163-5dce1510c336",
+    "navigator_id": "24ab1668-108f-4fd4-970f-092067cee134",
+    "messages": [
+      {
+        "id": "40c12297-1de0-4ce1-b14d-0f44a7e71dbe",
+        "speaker_id": "72ddaa1e-c058-4729-8163-5dce1510c336",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2024-11-28T17:23:29+00:00"
+      },
+      {
+        "id": "9cbf9cb1-4f03-456d-a5a3-29be93e55063",
+        "speaker_id": "24ab1668-108f-4fd4-970f-092067cee134",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2024-11-28T17:23:44+00:00"
+      },
+      {
+        "id": "acac0fde-5d7f-411f-ae16-8743e88b0693",
+        "speaker_id": "72ddaa1e-c058-4729-8163-5dce1510c336",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-11-28T17:23:59+00:00"
+      }
+    ]
+  },
+  {
+    "id": "482e31aa-ba0b-4f02-834d-deb234ea7c66",
+    "convo_id": "c98b5576-2f17-479c-8eb2-f596e8742b4f",
+    "care_id": "7fc2db56-09c2-4b5b-8f5c-70cae2edf650",
+    "patient_id": "719ec616-227a-46e5-b9f5-d26ceca31009",
+    "navigator_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+    "messages": [
+      {
+        "id": "91cba692-f3ee-42dc-a990-5b778f30f5ba",
+        "speaker_id": "719ec616-227a-46e5-b9f5-d26ceca31009",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-10-17T11:57:08+00:00"
+      },
+      {
+        "id": "976f0cb9-0ccf-4aa3-a61b-dbab8bcf2b03",
+        "speaker_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-10-17T11:57:23+00:00"
+      },
+      {
+        "id": "cd22b0c3-bb6d-4bea-86e4-7876fc8d6716",
+        "speaker_id": "719ec616-227a-46e5-b9f5-d26ceca31009",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-10-17T11:57:38+00:00"
+      }
+    ]
+  },
+  {
+    "id": "a83f090a-1f54-4a92-a6c6-0b92da708b6b",
+    "convo_id": "845c5480-36f2-4bef-9234-1bc499dcbdd0",
+    "care_id": "53203772-10eb-4e58-ba64-99b7c40eb489",
+    "patient_id": "4ad32789-37af-458f-85c4-ded82b9630b1",
+    "navigator_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+    "messages": [
+      {
+        "id": "225ca871-37b5-4dec-a5a4-9bbf64ee4bba",
+        "speaker_id": "4ad32789-37af-458f-85c4-ded82b9630b1",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2024-03-13T07:37:03+00:00"
+      },
+      {
+        "id": "cbc41e29-a156-4ae9-a1b4-fc9d53c8c764",
+        "speaker_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-03-13T07:37:18+00:00"
+      },
+      {
+        "id": "1a9ebc98-d2f3-483f-aeee-47e02084feee",
+        "speaker_id": "4ad32789-37af-458f-85c4-ded82b9630b1",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-03-13T07:37:33+00:00"
+      }
+    ]
+  },
+  {
+    "id": "d360f15a-3f01-46c0-af21-2e474baa386a",
+    "convo_id": "717219bc-2086-4aad-aa15-8fc659137a3f",
+    "care_id": "2e20ee5f-4bc6-4b25-9f4a-1fe1f57be59e",
+    "patient_id": "6ad09eef-5c24-470e-8a48-55240104fb5d",
+    "navigator_id": "880212ff-03d5-4639-8521-217f8a860251",
+    "messages": [
+      {
+        "id": "cc48f42b-b7d2-4240-95c4-2431dcb5f358",
+        "speaker_id": "6ad09eef-5c24-470e-8a48-55240104fb5d",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2025-10-13T06:32:35+00:00"
+      },
+      {
+        "id": "d20e2b7a-fe61-4607-b3ae-ac2947826123",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-10-13T06:32:50+00:00"
+      },
+      {
+        "id": "8407e65e-00c0-4fc1-ae4a-105b556533f9",
+        "speaker_id": "6ad09eef-5c24-470e-8a48-55240104fb5d",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-10-13T06:33:05+00:00"
+      }
+    ]
+  },
+  {
+    "id": "d8c4b474-e996-4fe7-95b7-c0c7167bc19d",
+    "convo_id": "c2afa3db-0f0d-4b2a-8be5-579e51aa3ffd",
+    "care_id": "8dcc7a7a-444c-4221-aafc-ab2a89fc73fe",
+    "patient_id": "db18639d-343a-4e3a-be43-a110e17ce36e",
+    "navigator_id": "24ab1668-108f-4fd4-970f-092067cee134",
+    "messages": [
+      {
+        "id": "fe7d6c56-718d-4284-93d1-e5ec0feb399f",
+        "speaker_id": "db18639d-343a-4e3a-be43-a110e17ce36e",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-01-11T22:35:09+00:00"
+      },
+      {
+        "id": "c6f6c77f-8008-4879-99b4-71d94e29ce43",
+        "speaker_id": "24ab1668-108f-4fd4-970f-092067cee134",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2024-01-11T22:35:24+00:00"
+      },
+      {
+        "id": "35eb030c-db4b-40aa-a59d-762ba52f5f04",
+        "speaker_id": "db18639d-343a-4e3a-be43-a110e17ce36e",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-01-11T22:35:39+00:00"
+      }
+    ]
+  },
+  {
+    "id": "471d9f12-88ac-4d51-b9b1-b4eaf98eb696",
+    "convo_id": "b02a8889-78e2-4f80-b188-5ffc8f3e0462",
+    "care_id": "d60120c7-436d-4236-b21f-0ff24158b827",
+    "patient_id": "e597c81f-5a4e-4163-9308-3b63c2e808bb",
+    "navigator_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+    "messages": [
+      {
+        "id": "07d88418-2a1f-4ddc-8b05-b2bedf506436",
+        "speaker_id": "e597c81f-5a4e-4163-9308-3b63c2e808bb",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-05-02T14:52:46+00:00"
+      },
+      {
+        "id": "1dbceccd-6520-417b-9c2d-71905e5a3a56",
+        "speaker_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2025-05-02T14:53:01+00:00"
+      },
+      {
+        "id": "acff336c-b6b5-4bbe-a6a3-6fc9ce40a5ab",
+        "speaker_id": "e597c81f-5a4e-4163-9308-3b63c2e808bb",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-05-02T14:53:16+00:00"
+      }
+    ]
+  },
+  {
+    "id": "6b848def-c113-4549-b0c7-ce52d2e4aded",
+    "convo_id": "30cbaebd-b0a8-4f7a-a5ca-af661732b441",
+    "care_id": "c55b630f-1d57-43e3-9e61-86de4b109b00",
+    "patient_id": "12e15b50-e6ec-4e6f-8ceb-18c9f0d69374",
+    "navigator_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+    "messages": [
+      {
+        "id": "69283bf8-18bf-47dc-abd0-41363f223ad8",
+        "speaker_id": "12e15b50-e6ec-4e6f-8ceb-18c9f0d69374",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2024-09-19T15:38:51+00:00"
+      },
+      {
+        "id": "f7f93df5-19fc-4a3d-91e2-336c130ecaa5",
+        "speaker_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2024-09-19T15:39:06+00:00"
+      },
+      {
+        "id": "11760816-93ae-4614-9e7d-d02e14641da9",
+        "speaker_id": "12e15b50-e6ec-4e6f-8ceb-18c9f0d69374",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-09-19T15:39:21+00:00"
+      }
+    ]
+  },
+  {
+    "id": "f5f80eca-7fae-41ab-af71-8b12b441552b",
+    "convo_id": "06f50e41-457e-476a-a5df-6c74fdb7b8cf",
+    "care_id": "609cc500-5f77-4ecb-84ac-bb3fbb01f3a4",
+    "patient_id": "5025f205-cee5-4944-a97b-7174826a2ddc",
+    "navigator_id": "62bada1a-110f-4f68-95ac-0eb4a7880972",
+    "messages": [
+      {
+        "id": "23f433f7-1a19-49eb-8e62-2194aafdbf52",
+        "speaker_id": "5025f205-cee5-4944-a97b-7174826a2ddc",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2025-08-04T22:53:51+00:00"
+      },
+      {
+        "id": "75cfa687-ab95-4db3-8d61-da459e451811",
+        "speaker_id": "62bada1a-110f-4f68-95ac-0eb4a7880972",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-08-04T22:54:06+00:00"
+      },
+      {
+        "id": "8633d904-2951-4db6-a456-c28d5789c0d2",
+        "speaker_id": "5025f205-cee5-4944-a97b-7174826a2ddc",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-08-04T22:54:21+00:00"
+      }
+    ]
+  },
+  {
+    "id": "df3d8fbb-d2dc-45fa-8b36-1d4f116f9d4a",
+    "convo_id": "9f2131f2-7671-4f9f-b16e-9409006a77b7",
+    "care_id": "ad2e093b-2804-4563-9a08-ad21775f8be2",
+    "patient_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+    "navigator_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+    "messages": [
+      {
+        "id": "5cf2156b-a6da-4d31-b747-99531d402077",
+        "speaker_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-03-16T13:06:43+00:00"
+      },
+      {
+        "id": "900ab9e7-f8c7-45ee-b72c-b86ef5976d43",
+        "speaker_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2025-03-16T13:06:58+00:00"
+      },
+      {
+        "id": "d6e93faa-3bd3-4ce2-9250-9e90fc560752",
+        "speaker_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-03-16T13:07:13+00:00"
+      }
+    ]
+  },
+  {
+    "id": "06e644a2-7850-433e-a6fa-99c71193ec42",
+    "convo_id": "032f8099-a565-4429-99b7-19d6e141d1f4",
+    "care_id": "9f71b2f4-8adf-48ad-a9b0-18320270b6a2",
+    "patient_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+    "navigator_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+    "messages": [
+      {
+        "id": "a91393fe-c193-4e33-ab87-708635f9fc9e",
+        "speaker_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2024-08-06T05:47:05+00:00"
+      },
+      {
+        "id": "f38bae8c-5782-4579-b968-01735a65935e",
+        "speaker_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-08-06T05:47:20+00:00"
+      },
+      {
+        "id": "4d1c9d59-fbc5-436c-8b9e-7821bb008166",
+        "speaker_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-08-06T05:47:35+00:00"
+      }
+    ]
+  },
+  {
+    "id": "c3bcaa79-5290-47e4-8755-e65ed99af23c",
+    "convo_id": "dfd31d9c-d4fc-4322-a211-48f1bafd79fd",
+    "care_id": "d5172486-0d4e-4b29-b815-0469b546d9c6",
+    "patient_id": "24ab1668-108f-4fd4-970f-092067cee134",
+    "navigator_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+    "messages": [
+      {
+        "id": "d7044197-3797-4984-8558-c6caf753e67e",
+        "speaker_id": "24ab1668-108f-4fd4-970f-092067cee134",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2024-08-13T05:26:27+00:00"
+      },
+      {
+        "id": "b5d44536-e704-4c7e-a4d0-3a6e130ddf7f",
+        "speaker_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2024-08-13T05:26:42+00:00"
+      },
+      {
+        "id": "82ce290d-f504-412c-a825-40b89d81aa1d",
+        "speaker_id": "24ab1668-108f-4fd4-970f-092067cee134",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-08-13T05:26:57+00:00"
+      }
+    ]
+  },
+  {
+    "id": "71cda781-caa8-4ad9-8c7f-142923e0bd8d",
+    "convo_id": "d86a3edb-7cc9-468a-9707-937379a87fe8",
+    "care_id": "a3b891da-ab45-421c-a745-01d8adbf7fbd",
+    "patient_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+    "navigator_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+    "messages": [
+      {
+        "id": "b99bc434-474a-4a48-ad35-24aa56295cd0",
+        "speaker_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2024-12-28T06:03:25+00:00"
+      },
+      {
+        "id": "81efd764-d3be-42a0-a5f6-57736d6b8c59",
+        "speaker_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+        "speaker_role": "care_navigator",
+        "text": "Thanks for sharing. Your reading is within target range.",
+        "timestamp": "2024-12-28T06:03:40+00:00"
+      },
+      {
+        "id": "dd8d939a-ac4e-47b1-972c-ff756b49c9b0",
+        "speaker_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-12-28T06:03:55+00:00"
+      }
+    ]
+  },
+  {
+    "id": "578a7355-7036-49ce-99fe-43ef1500cff3",
+    "convo_id": "ebfccc67-7d95-4744-8d65-d20f17f2e2e3",
+    "care_id": "13de4935-5653-4170-9390-3501b35684d7",
+    "patient_id": "880212ff-03d5-4639-8521-217f8a860251",
+    "navigator_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+    "messages": [
+      {
+        "id": "ce10dbbb-1cbc-469c-bc0b-00b9f70117d1",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2025-07-18T01:20:15+00:00"
+      },
+      {
+        "id": "4336fe89-f32e-4514-9c13-76ecd8c8551b",
+        "speaker_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+        "speaker_role": "care_navigator",
+        "text": "Your goal is 6,000 steps today\u2014you're almost there!",
+        "timestamp": "2025-07-18T01:20:30+00:00"
+      },
+      {
+        "id": "b1841871-1325-4675-8999-4b4be06e4016",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-07-18T01:20:45+00:00"
+      }
+    ]
+  },
+  {
+    "id": "74052c90-b547-4898-b0b3-cee78ff47c34",
+    "convo_id": "539a1784-d0ee-4905-8fc0-5cd0b30d7860",
+    "care_id": "74e4a575-b3d1-4445-bf54-c22eafe4cfbc",
+    "patient_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+    "navigator_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+    "messages": [
+      {
+        "id": "3a64e3f4-633e-4f98-9bec-76e66010a6b1",
+        "speaker_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-02-11T23:09:17+00:00"
+      },
+      {
+        "id": "51c4b0ed-d971-4b27-9cc1-e8b0e519cd72",
+        "speaker_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2025-02-11T23:09:32+00:00"
+      },
+      {
+        "id": "1396d18b-9802-40b2-90ac-9a7b95f73a7c",
+        "speaker_id": "66d167ed-217f-414a-ad91-0c74ca87c054",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-02-11T23:09:47+00:00"
+      }
+    ]
+  },
+  {
+    "id": "9ff1a941-7d61-48ae-8341-9d99e033db1a",
+    "convo_id": "7aba9867-77c3-4918-8292-1aa5bfdfb3bf",
+    "care_id": "ac17731e-e8c3-4c24-873e-db090f3b2b5b",
+    "patient_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+    "navigator_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+    "messages": [
+      {
+        "id": "6098a3bc-6b25-44fd-8535-b9c8de5728db",
+        "speaker_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2025-01-13T03:27:23+00:00"
+      },
+      {
+        "id": "1507a70e-6a7d-4340-a751-1aa8279073d6",
+        "speaker_id": "01acf3cc-eb27-47de-b59b-c28e49c9c261",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-01-13T03:27:38+00:00"
+      },
+      {
+        "id": "10cde82f-e7e5-4587-b0c7-2d3b06de46df",
+        "speaker_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-01-13T03:27:53+00:00"
+      }
+    ]
+  },
+  {
+    "id": "a5b413f7-a4dd-4cda-8467-abd81261821d",
+    "convo_id": "374497bb-b8c5-4c77-805e-e0f7d7b702c2",
+    "care_id": "1c59591a-eb63-41ce-b39b-cd13e810f06d",
+    "patient_id": "62bada1a-110f-4f68-95ac-0eb4a7880972",
+    "navigator_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+    "messages": [
+      {
+        "id": "7fe8f109-dd25-4899-9bc4-1dac305f2189",
+        "speaker_id": "62bada1a-110f-4f68-95ac-0eb4a7880972",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-08-10T10:55:03+00:00"
+      },
+      {
+        "id": "7e6d394e-6586-4d64-a444-6c906b425245",
+        "speaker_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-08-10T10:55:18+00:00"
+      },
+      {
+        "id": "aa888951-cf7a-488f-9dd5-bd0c5de160b0",
+        "speaker_id": "62bada1a-110f-4f68-95ac-0eb4a7880972",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-08-10T10:55:33+00:00"
+      }
+    ]
+  },
+  {
+    "id": "6c78a9e6-a5d9-4fbe-8ca5-5393aaa625ab",
+    "convo_id": "6ef0c9a2-33e9-4602-95e4-cddfd119c45a",
+    "care_id": "b72a7aa2-9069-4c25-bef2-414e498c08f5",
+    "patient_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+    "navigator_id": "880212ff-03d5-4639-8521-217f8a860251",
+    "messages": [
+      {
+        "id": "d73b62ce-29fd-49bf-bbf8-adf0f5ffe363",
+        "speaker_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2025-11-09T14:08:28+00:00"
+      },
+      {
+        "id": "b84d6ad1-0550-4a80-ba69-b3f76f1c8dcc",
+        "speaker_id": "880212ff-03d5-4639-8521-217f8a860251",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-11-09T14:08:43+00:00"
+      },
+      {
+        "id": "e8ffbdcb-8a09-4ba1-a5c3-55fa5707fdd8",
+        "speaker_id": "821b12b8-f6c5-4e68-b7ce-f457d9c95a80",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-11-09T14:08:58+00:00"
+      }
+    ]
+  },
+  {
+    "id": "8d7b8c8e-93a2-4128-9c7c-377903a0addd",
+    "convo_id": "e90b0c55-dac1-4bf2-86dc-edfa631a2f3c",
+    "care_id": "b490173b-deb1-4654-bf70-86171602d409",
+    "patient_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+    "navigator_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+    "messages": [
+      {
+        "id": "adee14d0-decc-47da-9b7f-20f6c9bf611d",
+        "speaker_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+        "speaker_role": "patient",
+        "text": "Hi, I'm logging my blood pressure now. Does this look okay?",
+        "timestamp": "2025-05-05T18:20:15+00:00"
+      },
+      {
+        "id": "173ab2e1-ebb1-4de1-8da7-05e939654e18",
+        "speaker_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+        "speaker_role": "care_navigator",
+        "text": "Your goal is 6,000 steps today\u2014you're almost there!",
+        "timestamp": "2025-05-05T18:20:30+00:00"
+      },
+      {
+        "id": "b9c7447b-0528-4145-b371-847ca0648c83",
+        "speaker_id": "49f8d942-8a68-4d4b-ac43-7310fbbca434",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-05-05T18:20:45+00:00"
+      }
+    ]
+  },
+  {
+    "id": "f732de4d-ba7b-47bc-a31d-dc92ef83d4df",
+    "convo_id": "9cdd448a-db16-459c-a511-571eed9d6492",
+    "care_id": "edc24f03-32ca-40ab-a38c-f7af6ab6b8bd",
+    "patient_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+    "navigator_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+    "messages": [
+      {
+        "id": "ecb1bbe1-055f-4010-b0ff-9732266e1f09",
+        "speaker_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-03-03T13:28:44+00:00"
+      },
+      {
+        "id": "08c1b4ed-d593-4720-a909-28fbafd92b38",
+        "speaker_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-03-03T13:28:59+00:00"
+      },
+      {
+        "id": "76ac1106-7729-4196-9c54-1b9aa17aeabc",
+        "speaker_id": "6f011298-d8ff-4efe-ab83-2d379fd5b9a0",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-03-03T13:29:14+00:00"
+      }
+    ]
+  },
+  {
+    "id": "e4345ae8-460c-4157-87ad-3b7859609aa3",
+    "convo_id": "53a6dc37-adbc-4330-9563-daa78d49bb69",
+    "care_id": "f6577168-273c-4b61-9d09-9e0555627a91",
+    "patient_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+    "navigator_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+    "messages": [
+      {
+        "id": "ced0442d-f761-4335-8d98-f7a37d019cb5",
+        "speaker_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+        "speaker_role": "patient",
+        "text": "Can you remind me what my goal is for daily steps?",
+        "timestamp": "2024-10-24T18:06:18+00:00"
+      },
+      {
+        "id": "0fb26c3f-5756-4f6d-878c-454004104e57",
+        "speaker_id": "f7c4fcba-4edf-4a56-8400-30eb126a3660",
+        "speaker_role": "care_navigator",
+        "text": "Your goal is 6,000 steps today\u2014you're almost there!",
+        "timestamp": "2024-10-24T18:06:33+00:00"
+      },
+      {
+        "id": "dd1ea3f8-0683-42b9-b40e-d5cd7864e934",
+        "speaker_id": "b6554d7c-ef0d-4dc0-911a-74ca5b1cab98",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-10-24T18:06:48+00:00"
+      }
+    ]
+  },
+  {
+    "id": "c240c9bd-4b3b-4436-90d4-3ab8a6ce79f3",
+    "convo_id": "62352eff-e4d0-4dd7-841c-74115f6a1225",
+    "care_id": "b5ace32c-820f-4c81-929b-b756c1b1e0bf",
+    "patient_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+    "navigator_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+    "messages": [
+      {
+        "id": "6d98e4aa-651d-4aee-8dd6-6bc766dabcf0",
+        "speaker_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+        "speaker_role": "patient",
+        "text": "The cuff felt tight; is that normal?",
+        "timestamp": "2025-08-12T20:23:32+00:00"
+      },
+      {
+        "id": "093707bb-1f21-43d9-8dd0-cb1d5813f10f",
+        "speaker_id": "0b80a207-c76f-4e1c-b47f-35cca9bce360",
+        "speaker_role": "care_navigator",
+        "text": "Take it with food, preferably after breakfast.",
+        "timestamp": "2025-08-12T20:23:47+00:00"
+      },
+      {
+        "id": "746ce63b-20d5-4577-b4aa-a28bea35ca7a",
+        "speaker_id": "c6b5eb05-5e0f-436d-8ebe-3b7735b755d7",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-08-12T20:24:02+00:00"
+      }
+    ]
+  },
+  {
+    "id": "8b97dbd0-7ec9-4368-8b3d-0cb819377a08",
+    "convo_id": "2f7637e4-3667-4cf0-ace3-0d2aa5c08805",
+    "care_id": "dd951a3a-3677-4de1-bf1c-7a2c700f6078",
+    "patient_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+    "navigator_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+    "messages": [
+      {
+        "id": "41ce0877-e627-494c-bb3e-a99fc7aa7d02",
+        "speaker_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2024-01-15T13:46:31+00:00"
+      },
+      {
+        "id": "031c1694-dd38-4b24-bb66-f6cc2f2d4bc7",
+        "speaker_id": "47f4ada7-f0c1-42ea-9fa6-593321bb9c1e",
+        "speaker_role": "care_navigator",
+        "text": "Yes, it should be snug but not painful. Try adjusting the position.",
+        "timestamp": "2024-01-15T13:46:46+00:00"
+      },
+      {
+        "id": "9e9bda91-5edf-4759-8a2f-592ab5107c8f",
+        "speaker_id": "38281d2f-accc-42e8-b3a3-795a8a7a538a",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2024-01-15T13:47:01+00:00"
+      }
+    ]
+  },
+  {
+    "id": "306571aa-c6f7-4760-98ce-cac09fac5277",
+    "convo_id": "cd29d3c9-5d40-4c6c-a911-e6180646218d",
+    "care_id": "162dbc16-7a5e-480a-bb03-a1dead95e79e",
+    "patient_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+    "navigator_id": "24ab1668-108f-4fd4-970f-092067cee134",
+    "messages": [
+      {
+        "id": "6e26766d-d6a0-41c2-afd8-275fa632642a",
+        "speaker_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+        "speaker_role": "patient",
+        "text": "I've been feeling a bit dizzy today.",
+        "timestamp": "2025-03-09T23:12:15+00:00"
+      },
+      {
+        "id": "a0feb73a-6f53-442b-a9bc-71649a39de98",
+        "speaker_id": "24ab1668-108f-4fd4-970f-092067cee134",
+        "speaker_role": "care_navigator",
+        "text": "Sorry to hear that. Let's keep monitoring and hydrate.",
+        "timestamp": "2025-03-09T23:12:30+00:00"
+      },
+      {
+        "id": "ec0d21ad-f8c5-4556-a514-83d00c53475f",
+        "speaker_id": "59a41098-2e0a-4641-b675-6f773ab973fb",
+        "speaker_role": "patient",
+        "text": "Thank you!",
+        "timestamp": "2025-03-09T23:12:45+00:00"
+      }
+    ]
+  }
+]
