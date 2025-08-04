@@ -1,42 +1,202 @@
 [
   {
+    "costIncluded": 8.72,
+    "costPurchased": 0.97
+  },
+  {
+    "costIncluded": 5.94,
+    "costPurchased": 1.57
+  },
+  {
+    "costIncluded": 1.11,
+    "costPurchased": 5.07
+  },
+  {
+    "costIncluded": 3.43,
+    "costPurchased": 4.28
+  },
+  {
+    "costIncluded": 3.34,
+    "costPurchased": 3.24
+  },
+  {
+    "costIncluded": 4.37,
+    "costPurchased": 8.05
+  },
+  {
+    "costIncluded": 9.06,
+    "costPurchased": 5.25
+  },
+  {
+    "costIncluded": 4.3,
+    "costPurchased": 4.11
+  },
+  {
+    "costIncluded": 3.24,
+    "costPurchased": 9.35
+  },
+  {
+    "costIncluded": 0.9,
+    "costPurchased": 8.51
+  },
+  {
+    "costIncluded": 3.21,
+    "costPurchased": 0.44
+  },
+  {
+    "costIncluded": 9.4,
+    "costPurchased": 5.57
+  },
+  {
+    "costIncluded": 6.49,
+    "costPurchased": 7.56
+  },
+  {
+    "costIncluded": 0.74,
+    "costPurchased": 1.13
+  },
+  {
+    "costIncluded": 6.97,
+    "costPurchased": 2.43
+  },
+  {
+    "costIncluded": 0.16,
+    "costPurchased": 0.74
+  },
+  {
+    "costIncluded": 4.17,
+    "costPurchased": 9.49
+  },
+  {
+    "costIncluded": 5.93,
+    "costPurchased": 0.16
+  },
+  {
+    "costIncluded": 1.09,
+    "costPurchased": 6.37
+  },
+  {
+    "costIncluded": 6.59,
+    "costPurchased": 8.36
+  },
+  {
+    "costIncluded": 2.63,
+    "costPurchased": 2.21
+  },
+  {
+    "costIncluded": 9.63,
+    "costPurchased": 4.25
+  },
+  {
+    "costIncluded": 5.58,
+    "costPurchased": 7.04
+  },
+  {
+    "costIncluded": 2.12,
+    "costPurchased": 1.38
+  },
+  {
+    "costIncluded": 1.58,
+    "costPurchased": 5.01
+  },
+  {
     "costIncluded": 2.02,
-    "costPurchased": 1.87
+    "costPurchased": 7.12
   },
   {
-    "costIncluded": 3.4,
-    "costPurchased": 7.72
+    "costIncluded": 7.04,
+    "costPurchased": 5.05
   },
   {
-    "costIncluded": 4.16,
-    "costPurchased": 4.68
+    "costIncluded": 5.94,
+    "costPurchased": 8.96
   },
   {
-    "costIncluded": 1.83,
-    "costPurchased": 6.98
+    "costIncluded": 3.67,
+    "costPurchased": 7.56
   },
   {
-    "costIncluded": 9.9,
-    "costPurchased": 4.31
+    "costIncluded": 3.95,
+    "costPurchased": 6.57
   },
   {
-    "costIncluded": 7.72,
-    "costPurchased": 7.06
+    "costIncluded": 3.43,
+    "costPurchased": 1.03
   },
   {
-    "costIncluded": 6.57,
-    "costPurchased": 8.14
+    "costIncluded": 1.69,
+    "costPurchased": 7.12
   },
   {
-    "costIncluded": 0.29,
-    "costPurchased": 1.67
+    "costIncluded": 5.06,
+    "costPurchased": 5.83
   },
   {
-    "costIncluded": 9.18,
-    "costPurchased": 9.08
+    "costIncluded": 2.87,
+    "costPurchased": 1.02
   },
   {
-    "costIncluded": 6.27,
-    "costPurchased": 4.78
+    "costIncluded": 6.66,
+    "costPurchased": 2.5
+  },
+  {
+    "costIncluded": 8.78,
+    "costPurchased": 7.88
+  },
+  {
+    "costIncluded": 9.83,
+    "costPurchased": 2.83
+  },
+  {
+    "costIncluded": 5.45,
+    "costPurchased": 0.22
+  },
+  {
+    "costIncluded": 6.91,
+    "costPurchased": 5.57
+  },
+  {
+    "costIncluded": 8.18,
+    "costPurchased": 4.12
+  },
+  {
+    "costIncluded": 8.04,
+    "costPurchased": 5.59
+  },
+  {
+    "costIncluded": 8.97,
+    "costPurchased": 6.79
+  },
+  {
+    "costIncluded": 6.5,
+    "costPurchased": 5.05
+  },
+  {
+    "costIncluded": 3.81,
+    "costPurchased": 3.87
+  },
+  {
+    "costIncluded": 9.84,
+    "costPurchased": 3.11
+  },
+  {
+    "costIncluded": 5.25,
+    "costPurchased": 3.82
+  },
+  {
+    "costIncluded": 3.74,
+    "costPurchased": 6.54
+  },
+  {
+    "costIncluded": 7.15,
+    "costPurchased": 5.57
+  },
+  {
+    "costIncluded": 7.62,
+    "costPurchased": 4.06
+  },
+  {
+    "costIncluded": 2.85,
+    "costPurchased": 7.21
   }
 ]

@@ -1,97 +1,602 @@
 [
   {
-    "user_id": "78c9df5f-8eba-4a80-9122-1c4f40c26023",
-    "care_id": "1807969a-23e1-4785-baa6-e54cb5622949",
+    "id": "8ec35148-d45b-4a75-8242-839db1610c69",
+    "user_id": "65e5c18b-ea2a-45f6-a196-20b212a6d9ba",
+    "care_id": "a4b63639-5816-40f9-bc7c-1bd7592333f6",
     "topic": "Vitals Check",
     "status": "active",
-    "start_time": "2025-07-17T17:28:29.878835",
-    "end_time": null,
-    "summary": "Discussed patient vitals and medication adherence.",
-    "score": 0.37,
-    "protocol_id": "e276b3c8-13b1-4239-a800-f7ed866141b4",
+    "start_time": "2024-01-05T20:52:22+00:00",
     "conversation_ids": [
-      "f3fc682e-37ad-4b99-a6ed-3163bf3a3c3a"
+      "d4989bca-8fe8-4a58-bad9-cc68c7989d24"
     ],
-    "program": "RPM",
-    "care_team_role": "RN",
-    "domain": "medications",
-    "trigger_type": "avatar",
-    "encounter_id": "aabfc553-6ba0-437f-8ac2-a232cac153ac"
+    "program": "RPM"
   },
   {
-    "user_id": "9b7e4a7d-0fc7-4026-a36d-6167735e1afc",
-    "care_id": "7cbbd8ae-37f2-4213-bc7a-7e55a0744510",
-    "topic": "Vitals Check",
-    "status": "aborted",
-    "start_time": "2025-07-24T17:28:29.878889",
-    "end_time": null,
-    "summary": "Discussed patient vitals and medication adherence.",
-    "score": 0.57,
-    "protocol_id": "8e74af1a-03ed-492b-81cd-42c615ea512f",
-    "conversation_ids": [
-      "8d7fb1a5-d772-4ed3-a6cf-71b7800ff7ea"
-    ],
-    "program": "RPM",
-    "care_team_role": "RN",
-    "domain": "medications",
-    "trigger_type": "avatar",
-    "encounter_id": "ea8c41b3-8c71-42ee-a5b5-b1f2c0563284"
-  },
-  {
-    "user_id": "7fff7dad-f91b-4739-aecf-ba0544913922",
-    "care_id": "d9b6e44b-0db2-4bbd-8f77-7c1c4e794d74",
-    "topic": "Vitals Check",
-    "status": "completed",
-    "start_time": "2025-07-23T17:28:29.878927",
-    "end_time": null,
-    "summary": "Discussed patient vitals and medication adherence.",
-    "score": 0.98,
-    "protocol_id": "03d3a4ec-71ea-47b5-9296-cf7790855121",
-    "conversation_ids": [
-      "96c74d19-50b9-4d8a-9566-e8edde93db8b"
-    ],
-    "program": "RPM",
-    "care_team_role": "RN",
-    "domain": "medications",
-    "trigger_type": "avatar",
-    "encounter_id": "c3f54200-5609-4bdb-845e-18c799b9cfd4"
-  },
-  {
-    "user_id": "6bda8bb3-a497-423b-88cf-55862032f784",
-    "care_id": "76c3df74-e193-47ad-91d0-d6819cbdded0",
+    "id": "7ad36df2-bb62-43de-9e11-32d3429609e4",
+    "user_id": "ff6c45fb-3e17-4c87-a643-0012939c8540",
+    "care_id": "2e2c5a22-adf9-4748-9636-c2482664fe82",
     "topic": "Vitals Check",
     "status": "active",
-    "start_time": "2025-07-24T17:28:29.878965",
-    "end_time": null,
-    "summary": "Discussed patient vitals and medication adherence.",
-    "score": 0.84,
-    "protocol_id": "436b6900-6c69-4d30-a292-8cd17ece9a94",
+    "start_time": "2024-06-14T14:54:27+00:00",
     "conversation_ids": [
-      "82c0f40d-0807-42e1-948b-07941a94ee45"
+      "e2de0a90-7f55-4087-af9f-d2c6100c2ad2"
     ],
-    "program": "RPM",
-    "care_team_role": "RN",
-    "domain": "medications",
-    "trigger_type": "avatar",
-    "encounter_id": "170abaa2-e9e2-4fa6-8675-e051dbbcc1fe"
+    "program": "RPM"
   },
   {
-    "user_id": "bc43fafd-9a71-4308-b5d5-742f8fa0bdbc",
-    "care_id": "cba2e902-2031-4fa4-a382-2b95178e80e6",
-    "topic": "Medication Adherence",
-    "status": "completed",
-    "start_time": "2025-07-03T17:28:29.879002",
-    "end_time": null,
-    "summary": "Discussed patient vitals and medication adherence.",
-    "score": 0.34,
-    "protocol_id": "16ee417d-47a6-4adb-a242-bd61f74aa2d4",
+    "id": "bf202fe0-adf7-4bcc-a983-3ed5795e6f42",
+    "user_id": "62aae1ab-689a-488c-8780-0a5aa1a0345f",
+    "care_id": "88b963ed-a7dd-4e50-b4eb-cc091c92d22e",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-08-11T01:13:10+00:00",
     "conversation_ids": [
-      "bcac2718-39b7-4321-8d88-1299ce62f52c"
+      "99249641-0225-43bb-baac-0867c5e78095"
     ],
-    "program": "RPM",
-    "care_team_role": "RN",
-    "domain": "medications",
-    "trigger_type": "avatar",
-    "encounter_id": "b524ab1d-6bed-4389-9632-90c7f1fe8897"
+    "program": "RPM"
+  },
+  {
+    "id": "8ede8365-b627-4684-b6e5-a1f17e089b26",
+    "user_id": "98c541a0-a459-4ab8-85a3-911afa626484",
+    "care_id": "5887d3db-1a1e-4283-b0f9-7321d5e26eea",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-03-28T01:50:49+00:00",
+    "conversation_ids": [
+      "272fcf67-24f5-40e0-b84a-732cbac2fc6e"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "45ad344a-5043-48d3-b082-47d4e88bcbdc",
+    "user_id": "4791e39f-5d85-4178-83e8-e50621382813",
+    "care_id": "9f256104-3c2c-40ce-88e4-559b69b97816",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-06-03T22:15:06+00:00",
+    "conversation_ids": [
+      "97a580cb-a2f7-41f3-b530-530e9fea34ca"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "fa11a94e-6faa-4c71-ae67-a21149cd54c5",
+    "user_id": "3f7f4bc1-10ef-49af-b404-bf0737ed8011",
+    "care_id": "8d75fe6a-b46c-4e28-becf-ce8e0f802657",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-01-31T17:12:23+00:00",
+    "conversation_ids": [
+      "da6ddd91-9410-4adc-84cf-5cecbece27b4"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "af6e7664-3eb3-4ca2-ad91-bfaadae27cb4",
+    "user_id": "da4f2611-85b8-4ceb-bbd0-fc602bd704c3",
+    "care_id": "6748ed50-8245-4a90-a0b5-2bfbbdc53236",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-04-19T15:44:04+00:00",
+    "conversation_ids": [
+      "54ed076d-f69a-4df4-9457-83dab4e1e134"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "7cddca0d-6f94-4ed0-b361-aff92afcf64a",
+    "user_id": "7f498c8a-42ff-4f38-bcaf-0e90074b1790",
+    "care_id": "a9847ff9-3476-4314-b7a5-9efdde0c8e25",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-04-29T13:14:16+00:00",
+    "conversation_ids": [
+      "622987fb-77f9-4b68-ae29-217d8f6c2e05"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "0404a674-1ff7-46cb-a2da-7196d14ac99b",
+    "user_id": "6be3b5bd-faca-46aa-8b74-1cd379632959",
+    "care_id": "6afe4e35-1c3c-49af-bd02-1c4f6fa537f1",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-06-17T12:08:38+00:00",
+    "conversation_ids": [
+      "1a5c02cf-dd8c-4803-bc26-87fc8cace534"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "7dc0a9a0-0692-45b3-aa58-c643741a448b",
+    "user_id": "473745ff-3a93-4303-b03a-fe5ed4348599",
+    "care_id": "c94630fb-54bf-4544-bffe-5d4dd8f0d480",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-06-16T19:44:15+00:00",
+    "conversation_ids": [
+      "9c6c6693-aba3-42fb-afd8-b516f1173d50"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "65f6c596-83ce-49bc-9a15-568f2c12bff8",
+    "user_id": "b376e6ea-fec8-4c43-96b1-3b2e88a13a3f",
+    "care_id": "a20e7a1a-c14d-4d12-b765-3f5b37d5a70f",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-01-22T06:30:48+00:00",
+    "conversation_ids": [
+      "beac412a-e3c5-4e0c-8554-090ce2006831"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "f7f3c797-e79c-4b09-b19b-99b48bcd1f1e",
+    "user_id": "84a52f86-6403-44b1-9ef0-8460b4757687",
+    "care_id": "4c1a5518-2934-41be-8231-aeff88f6527b",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-01-15T22:50:20+00:00",
+    "conversation_ids": [
+      "86f1a062-b1e8-43fe-b511-6866a834dfd6"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "3a0b7aa4-4578-4e8b-bc5f-25b0ba88d334",
+    "user_id": "6f760655-051d-4137-a179-99e157610429",
+    "care_id": "5546777a-9dae-47ad-a605-65fa5a15a148",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-04-25T21:44:02+00:00",
+    "conversation_ids": [
+      "8d804f17-0a8b-44bc-b755-de29d9db0a9e"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "772e1222-14c9-48e9-92ab-53a61d8dd7a2",
+    "user_id": "36b9452c-c1a8-40a0-b9db-10198737176b",
+    "care_id": "3629ee4e-4d01-49a2-9327-e9b079247198",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-06-24T17:54:03+00:00",
+    "conversation_ids": [
+      "32d70f22-c5f9-43c9-a2d4-f3a39335dd1b"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "96bc8b46-21bc-4956-b7e9-5efd25c93584",
+    "user_id": "16fae418-0cd3-4221-b3f6-f953d1ed3d0a",
+    "care_id": "add5b94c-3d98-4cb9-aa65-c35690f248f1",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-06-08T03:46:21+00:00",
+    "conversation_ids": [
+      "183530e9-c051-413a-956b-1852e3e0d474"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "ee90dbe0-4332-44d5-a411-5020d933d308",
+    "user_id": "d4947b22-8304-47d8-a774-104c2080b523",
+    "care_id": "aaaca36d-006f-439e-86d5-9e81e2425b4b",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-01-12T15:16:41+00:00",
+    "conversation_ids": [
+      "03fc203a-e2fc-4f1a-9601-42f76c43497b"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "526b224a-fce6-474a-802e-3f5794255608",
+    "user_id": "c09d4405-0565-4e07-9e3e-2fee3849dc02",
+    "care_id": "ddf7b0ff-2f26-4f70-85b0-50c73e4d6869",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-09-13T00:22:27+00:00",
+    "conversation_ids": [
+      "b6ec40b3-1ab1-4d7a-a594-e7e54065db53"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "518060e3-e6d8-4722-b038-cc31b5c4f9e0",
+    "user_id": "c3c4887b-74fc-4d1d-8533-10beeb3f633a",
+    "care_id": "746ca9c7-2042-43fd-8d07-0598b039a560",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-03-04T20:12:39+00:00",
+    "conversation_ids": [
+      "705a1252-737e-456b-b4d7-49afcd8969f7"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "8cac11e3-1c1b-4a73-8444-a98bd326f866",
+    "user_id": "80ff690d-0f46-44a2-98da-ff39c9274851",
+    "care_id": "ce9679eb-40fc-48ea-9f0e-5a8152b82280",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-09-06T01:25:29+00:00",
+    "conversation_ids": [
+      "794820d6-bcd8-440c-a2c4-ae606cb45a3f"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "34770b48-82d6-43df-9350-9b3412cdb9c5",
+    "user_id": "c0ac6130-a0d0-44d9-879b-134aa23b94ae",
+    "care_id": "e25e51a9-6761-4019-ab89-7412203381c7",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-07-06T04:39:07+00:00",
+    "conversation_ids": [
+      "2c338c63-4518-4919-8dfe-2d69466c6d51"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "7812cbb1-38b7-4a60-b7ca-62aca870e85f",
+    "user_id": "bc57932a-642d-4f96-9b10-d4a2e53c98bf",
+    "care_id": "64a16fd0-3257-456b-949d-dacb3effb13e",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-03-23T18:23:45+00:00",
+    "conversation_ids": [
+      "04220c3b-a519-48fe-81d3-d1755df9e608"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "0f42f499-0b7a-47ec-bd0d-7d29f7390b64",
+    "user_id": "fa3bd049-87c0-4c96-b3c4-ee722b54ac78",
+    "care_id": "5d35c9ba-95de-42f9-a13b-17d2d03b91fe",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-06-08T07:29:05+00:00",
+    "conversation_ids": [
+      "cc769c80-6691-4c18-91fc-4e91cfbd07d5"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "b5a4e18f-68e1-45f6-b266-3cbf88d3bb9c",
+    "user_id": "917dc4fd-0e16-4302-9031-5b4d0937ebac",
+    "care_id": "8d13045d-2ba3-4cf4-a042-b1d10d86ccd3",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-12-02T11:41:08+00:00",
+    "conversation_ids": [
+      "dfc358e5-50ab-4d0e-ad44-efe5e67e4c77"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "870b0edd-bdc7-42f5-b325-79ab69efb086",
+    "user_id": "4df5469f-c982-4586-964b-a18f51d26548",
+    "care_id": "c0bfbb21-1a7a-420e-a315-44e09ce73e24",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-06-02T13:15:00+00:00",
+    "conversation_ids": [
+      "0b5a8b22-df2b-4041-b1e1-1a8a461c4f56"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "8d3406c1-efa0-4f47-9b0e-eb793d889177",
+    "user_id": "f520131e-4b93-40a0-81db-51a51336d4ec",
+    "care_id": "33dd3d2f-4a25-4cb3-8647-63186d42690a",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-11-26T04:03:17+00:00",
+    "conversation_ids": [
+      "b7a4a3a0-3a07-4786-b767-19b53de9ba82"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "b59ce6a8-b1cc-4e02-96de-71250eea604b",
+    "user_id": "0faa8367-ac76-479a-a5d2-77757a535c2c",
+    "care_id": "6e877036-5002-43ad-98df-d4d8585ed082",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-04-19T01:44:17+00:00",
+    "conversation_ids": [
+      "0c0c208d-4806-4bf9-8064-fae82a88ec9a"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "92b6b40e-0e91-4a84-82ad-1ae36ad527f6",
+    "user_id": "a1825683-9491-4b94-8ae6-a74c6454695a",
+    "care_id": "8d2e868f-83a7-47ee-bcd6-1880363b2063",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-08-01T09:02:03+00:00",
+    "conversation_ids": [
+      "c8d814ae-262c-41b0-a825-e9dbc76caec0"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "cf1c6b46-eef7-437a-b512-2509af6d49af",
+    "user_id": "f6e8995e-9c6e-4fdd-85cb-682db83f36a1",
+    "care_id": "4902b1a0-18f6-469a-a013-f876affc9ac7",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-06-18T19:21:57+00:00",
+    "conversation_ids": [
+      "5d9fd1ef-b05b-4bee-9e06-ac0bcb39f45e"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "d472709d-61ee-462f-908e-599200366356",
+    "user_id": "c71cf91e-c963-4504-bcd0-a1c0c5d9f5af",
+    "care_id": "be1d4eef-068f-451e-a96e-1a6c431e86c2",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-02-28T13:09:12+00:00",
+    "conversation_ids": [
+      "09efbf1c-ab9a-4bd1-9a30-ee5ea29c5e31"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "77cff48b-4362-405a-84a7-0ae08be1add5",
+    "user_id": "ea993911-f86c-418c-a193-b1098e9f31e3",
+    "care_id": "890817cf-3439-47bf-ac44-393d9a786d52",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-11-07T23:33:39+00:00",
+    "conversation_ids": [
+      "b37edbae-964b-42cb-ae3f-fc17ce538aca"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "30bc318c-e3d3-4987-b0f7-636d1121d761",
+    "user_id": "595b44ca-c312-4562-a703-a7631ae2fe66",
+    "care_id": "13052a5c-5b66-4ee4-97db-ce04c895a00c",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-06-03T22:26:50+00:00",
+    "conversation_ids": [
+      "33673e97-69e0-4b60-aa10-16d9089621e7"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "b75a4d46-1a2e-42ef-bbb9-3c59d610b00b",
+    "user_id": "d1159968-399f-460d-ae46-e16a89b769c5",
+    "care_id": "766024e0-205c-43b7-b3a2-e66491d6405f",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-07-24T10:38:37+00:00",
+    "conversation_ids": [
+      "5dee6a16-7684-43dd-91b4-83842b899258"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "1c67e4fa-a7ef-4ff8-af2e-dca67575ecaf",
+    "user_id": "04d2edca-34aa-455a-8f0a-2401339e1c9e",
+    "care_id": "f030b8e1-2252-42cf-a7dc-07d99bfda28f",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-05-08T12:47:05+00:00",
+    "conversation_ids": [
+      "9757da53-6464-46d1-a5da-ba44a1d6a7aa"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "ed9b7eb5-b307-493f-8d81-081fa51a32f3",
+    "user_id": "6c8ae122-7956-4acb-9fac-9a58f33d7c0a",
+    "care_id": "13f4b244-ae23-45d4-983e-0bbf434afb3a",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-07-02T07:58:46+00:00",
+    "conversation_ids": [
+      "75b53044-84ee-41a0-9356-2b414b0bc730"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "e324f9b5-8fd4-4192-9fc5-e5e7ed34f98e",
+    "user_id": "723977c4-2af4-498a-acac-2c0709f759ae",
+    "care_id": "3e0887dd-4652-44bb-b628-f9a01b06a2fa",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-03-02T13:07:25+00:00",
+    "conversation_ids": [
+      "b5f8fa56-e3d1-4138-892b-e89c25e40d23"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "b522c9cb-4b9f-461e-846f-b6b87baf4505",
+    "user_id": "9efff8b8-6806-4598-b2d8-664c6c394ef5",
+    "care_id": "8047c1ee-d86f-49ad-b951-791729d8a2a8",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-12-21T06:43:51+00:00",
+    "conversation_ids": [
+      "aa46d560-5168-47f2-a8d4-0cc1ca8dd18b"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "e27f4453-61a2-40a7-8d7c-32c0e160fab0",
+    "user_id": "ea0eb12f-cc13-4da0-84bb-62e01f107838",
+    "care_id": "7632ccf9-2779-41b9-a3f2-065bf3d81fa3",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-08-12T12:19:06+00:00",
+    "conversation_ids": [
+      "5c358550-65bf-42d9-b27d-016deeffcc65"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "15d94871-108c-4b1a-9110-a1465ee3f84a",
+    "user_id": "9ce0b5c1-1e90-4a19-a3b2-89795789216d",
+    "care_id": "6fc13a98-dbe9-4780-825a-f0a3770417f1",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-03-30T06:52:14+00:00",
+    "conversation_ids": [
+      "48cefc84-b1c4-4289-8f2d-fe686e061fac"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "888190a0-ada2-453b-a315-254c1b66d78b",
+    "user_id": "99824068-9c08-416a-86e6-ad58dc31fce8",
+    "care_id": "d6e4f6b2-1167-4bc5-8fff-3bc73f4d0889",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-11-18T09:04:37+00:00",
+    "conversation_ids": [
+      "d3ed783f-ed8c-46c1-a41d-8ce080f877ea"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "610f1524-b06d-4b71-abc5-bfa55e9613cd",
+    "user_id": "4ef81c13-d03d-449a-977d-2758cdf904f3",
+    "care_id": "e5d3e5a2-d28f-4f94-b4dc-8c59daca8c2b",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-09-14T02:20:08+00:00",
+    "conversation_ids": [
+      "5417b636-72de-463f-9958-c5a6af321a33"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "7257ab20-365e-4223-83bc-209f0697b81c",
+    "user_id": "ff79eeed-f0e7-4437-b8e0-d44a188febf1",
+    "care_id": "91429617-2160-45f6-bbcf-322ad991ef0a",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-11-17T07:20:25+00:00",
+    "conversation_ids": [
+      "c8ba0f33-926e-411b-a4fa-fef16f2e7d70"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "fde1ebb5-a29f-455b-b877-ce7b5decb91f",
+    "user_id": "c6cdf220-840c-4660-83a7-1bc45eca3f36",
+    "care_id": "9a696c7e-f258-47d3-8d30-44838ce59ea0",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-10-02T10:06:59+00:00",
+    "conversation_ids": [
+      "75cf4347-48e4-4bcf-ae98-89c816fbff0a"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "f1ac7d4b-d3e6-4dee-90fe-1c263bf286b1",
+    "user_id": "f1f5bf05-6fd1-48b7-b574-877657cdee2b",
+    "care_id": "e6079c5f-1504-4ba3-9c9c-b8248aaad945",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-10-01T13:12:59+00:00",
+    "conversation_ids": [
+      "be7666d0-9768-427d-a1e6-ec0c4b4b9449"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "7eee5055-42ff-4e87-af98-fe5333bb3f40",
+    "user_id": "484d5efe-5019-4def-9eb3-26bb355d436b",
+    "care_id": "849541b2-43a4-4bd6-8984-58779bc56db3",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-12-20T04:18:22+00:00",
+    "conversation_ids": [
+      "a460e87f-6792-4fe8-b593-69596e8370f3"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "f9732baa-1985-43f5-a832-671fa18a9d05",
+    "user_id": "7ad5dbfa-38bb-418f-b93e-42130ce11448",
+    "care_id": "f2fbdf06-7b65-459a-9f67-6b2cd4b1502b",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-04-28T06:49:58+00:00",
+    "conversation_ids": [
+      "2846f413-0f3a-40ab-b59d-328b9ef811c9"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "9ce382db-938a-4ba0-a113-a7e468ff3a31",
+    "user_id": "eccb350d-b061-4f90-83d2-6cfb9e72e255",
+    "care_id": "dd69d9bb-19c1-4a4c-b3d8-f158766dd68e",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-10-30T12:04:26+00:00",
+    "conversation_ids": [
+      "a37ed278-219e-442b-a274-438a8c86763a"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "0154b30d-135b-43e8-83c3-30bf47d0aea1",
+    "user_id": "b44c6936-698c-4567-afc8-f75ab76411f2",
+    "care_id": "c86d6ff5-0f7a-41a2-bc7b-c06c42272222",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-03-11T21:40:56+00:00",
+    "conversation_ids": [
+      "6df375ac-956b-4069-a840-3b7c5c619991"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "744d8979-0a7e-40b0-a6f4-ff04740cfa7d",
+    "user_id": "d5c60ab5-8e22-4c09-b77b-b0d19a11e94d",
+    "care_id": "2c99d0f5-d9ec-41a3-82ea-2190767d23a0",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2025-02-20T13:36:14+00:00",
+    "conversation_ids": [
+      "40f6b2f2-eccd-461e-90ea-8b8b09028db8"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "9ba326f2-d502-47e0-a7f3-a105ad5f3dc9",
+    "user_id": "97129611-04ca-4f57-82d0-d6389e727930",
+    "care_id": "538303e7-c309-419e-88e1-e89f7ac75814",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-02-15T03:46:54+00:00",
+    "conversation_ids": [
+      "f5d6cc27-8555-431b-baf7-bcc818f491c2"
+    ],
+    "program": "RPM"
+  },
+  {
+    "id": "9e5ffb68-296f-4466-bc41-f4e20e6d16d9",
+    "user_id": "0387f502-b4a6-49dc-98e5-4ad426604934",
+    "care_id": "1d75d181-19e8-46a8-8782-f1036dd2774b",
+    "topic": "Vitals Check",
+    "status": "active",
+    "start_time": "2024-02-02T05:01:16+00:00",
+    "conversation_ids": [
+      "0aa27aea-520b-456e-a429-2f233f19c9f5"
+    ],
+    "program": "RPM"
   }
 ]

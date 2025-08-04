@@ -1,0 +1,452 @@
+[
+  {
+    "id": "7f13e3f9-91e0-411e-aab1-7c63b075ddd0",
+    "account_id": "65e5c18b-ea2a-45f6-a196-20b212a6d9ba",
+    "record_date": "2024-07-15T16:33:34+00:00",
+    "category": "Sleep Duration",
+    "reading": 107.5,
+    "unit": "mmHg",
+    "device": "Glucometer"
+  },
+  {
+    "id": "8fa3395f-384f-4a52-8796-82670b7eb83e",
+    "account_id": "ff6c45fb-3e17-4c87-a643-0012939c8540",
+    "record_date": "2024-07-19T17:39:40+00:00",
+    "category": "Steps",
+    "reading": 99.8,
+    "unit": "hours",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "b414ea68-d5c5-4adf-87ac-4d11b6d2e241",
+    "account_id": "62aae1ab-689a-488c-8780-0a5aa1a0345f",
+    "record_date": "2025-04-21T19:22:27+00:00",
+    "category": "Blood Pressure",
+    "reading": 142.7,
+    "unit": "mmHg",
+    "device": "Thermometer"
+  },
+  {
+    "id": "8b63fb90-3936-422b-84c4-a29bb36c361d",
+    "account_id": "98c541a0-a459-4ab8-85a3-911afa626484",
+    "record_date": "2024-01-01T13:50:37+00:00",
+    "category": "Sleep Duration",
+    "reading": 152.3,
+    "unit": "bpm",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "9b75b433-f293-4210-9b69-bb1b99193b2f",
+    "account_id": "4791e39f-5d85-4178-83e8-e50621382813",
+    "record_date": "2024-04-22T16:52:19+00:00",
+    "category": "Heart Rate",
+    "reading": 106.6,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "d5573f41-fbe8-4e3b-b400-76e4fc2659e6",
+    "account_id": "3f7f4bc1-10ef-49af-b404-bf0737ed8011",
+    "record_date": "2025-02-28T01:40:54+00:00",
+    "category": "Steps",
+    "reading": 58.9,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "efc68e06-ce00-4be1-9d28-9a91a7bd42e3",
+    "account_id": "da4f2611-85b8-4ceb-bbd0-fc602bd704c3",
+    "record_date": "2024-06-22T05:43:09+00:00",
+    "category": "Blood Pressure",
+    "reading": 179.6,
+    "unit": "bpm",
+    "device": "Thermometer"
+  },
+  {
+    "id": "a531e669-84f5-4227-a867-2539aaadea4a",
+    "account_id": "7f498c8a-42ff-4f38-bcaf-0e90074b1790",
+    "record_date": "2025-05-04T23:30:29+00:00",
+    "category": "Blood Pressure",
+    "reading": 54.5,
+    "unit": "bpm",
+    "device": "Glucometer"
+  },
+  {
+    "id": "76c05821-20d9-4e2a-84d6-217122e7c265",
+    "account_id": "6be3b5bd-faca-46aa-8b74-1cd379632959",
+    "record_date": "2025-12-12T20:23:34+00:00",
+    "category": "Steps",
+    "reading": 135.8,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "50241c82-0692-49e0-9d11-e0d0cc0a2490",
+    "account_id": "473745ff-3a93-4303-b03a-fe5ed4348599",
+    "record_date": "2024-07-07T21:38:04+00:00",
+    "category": "Heart Rate",
+    "reading": 92.5,
+    "unit": "count",
+    "device": "Glucometer"
+  },
+  {
+    "id": "40468500-aedf-44fa-bace-f882c9308f49",
+    "account_id": "b376e6ea-fec8-4c43-96b1-3b2e88a13a3f",
+    "record_date": "2024-07-06T18:45:42+00:00",
+    "category": "Heart Rate",
+    "reading": 143.4,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "c5c821eb-161a-4741-820a-55ddb39a5ef4",
+    "account_id": "84a52f86-6403-44b1-9ef0-8460b4757687",
+    "record_date": "2024-06-27T14:38:55+00:00",
+    "category": "Heart Rate",
+    "reading": 140.0,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "84ddf20d-cd9f-4dcd-9c8c-cb4eff9a0813",
+    "account_id": "6f760655-051d-4137-a179-99e157610429",
+    "record_date": "2024-05-21T02:22:37+00:00",
+    "category": "Steps",
+    "reading": 153.7,
+    "unit": "count",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "15a8be02-8055-462e-994c-f8d7e6ece551",
+    "account_id": "36b9452c-c1a8-40a0-b9db-10198737176b",
+    "record_date": "2025-06-10T21:21:14+00:00",
+    "category": "Steps",
+    "reading": 126.2,
+    "unit": "hours",
+    "device": "Glucometer"
+  },
+  {
+    "id": "85e17904-b0c4-4dcc-82c7-93c796f13b6b",
+    "account_id": "16fae418-0cd3-4221-b3f6-f953d1ed3d0a",
+    "record_date": "2025-12-15T15:44:58+00:00",
+    "category": "Steps",
+    "reading": 75.9,
+    "unit": "bpm",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "eb588213-33ce-4643-87d3-08de284ffcd7",
+    "account_id": "d4947b22-8304-47d8-a774-104c2080b523",
+    "record_date": "2024-03-13T21:27:36+00:00",
+    "category": "Sleep Duration",
+    "reading": 149.2,
+    "unit": "bpm",
+    "device": "Thermometer"
+  },
+  {
+    "id": "dbbe08a9-b1b7-4963-b460-fc3ab51921cb",
+    "account_id": "c09d4405-0565-4e07-9e3e-2fee3849dc02",
+    "record_date": "2025-04-26T14:31:04+00:00",
+    "category": "Steps",
+    "reading": 167.1,
+    "unit": "bpm",
+    "device": "Thermometer"
+  },
+  {
+    "id": "dde7489f-a1ed-4fa6-bbdb-64b0296cf302",
+    "account_id": "c3c4887b-74fc-4d1d-8533-10beeb3f633a",
+    "record_date": "2024-12-12T11:01:37+00:00",
+    "category": "Sleep Duration",
+    "reading": 97.1,
+    "unit": "bpm",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "21e6bd39-8b01-4dec-a5ec-c1833460608d",
+    "account_id": "80ff690d-0f46-44a2-98da-ff39c9274851",
+    "record_date": "2025-02-22T02:05:38+00:00",
+    "category": "Heart Rate",
+    "reading": 145.2,
+    "unit": "bpm",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "832c0181-0d2a-42cd-83ef-96c4590edb48",
+    "account_id": "c0ac6130-a0d0-44d9-879b-134aa23b94ae",
+    "record_date": "2025-09-06T16:25:15+00:00",
+    "category": "Sleep Duration",
+    "reading": 56.3,
+    "unit": "bpm",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "020adbc6-b2dd-4573-90f1-db67935fc94c",
+    "account_id": "bc57932a-642d-4f96-9b10-d4a2e53c98bf",
+    "record_date": "2025-08-25T19:41:44+00:00",
+    "category": "Steps",
+    "reading": 80.0,
+    "unit": "mmHg",
+    "device": "Thermometer"
+  },
+  {
+    "id": "b3064f3b-a628-435b-b0b6-7cf1c2375497",
+    "account_id": "fa3bd049-87c0-4c96-b3c4-ee722b54ac78",
+    "record_date": "2024-03-16T15:01:49+00:00",
+    "category": "Heart Rate",
+    "reading": 86.7,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "0dc49964-1e66-4d46-bbd9-6a64c09e66b2",
+    "account_id": "917dc4fd-0e16-4302-9031-5b4d0937ebac",
+    "record_date": "2024-04-02T08:38:59+00:00",
+    "category": "Sleep Duration",
+    "reading": 106.2,
+    "unit": "mmHg",
+    "device": "Thermometer"
+  },
+  {
+    "id": "fdb6345c-50ba-4fdd-a89e-eeed5a829222",
+    "account_id": "4df5469f-c982-4586-964b-a18f51d26548",
+    "record_date": "2025-11-28T18:41:15+00:00",
+    "category": "Steps",
+    "reading": 104.0,
+    "unit": "mmHg",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "ae4d5830-b52b-45e5-9999-5ab19f004f2b",
+    "account_id": "f520131e-4b93-40a0-81db-51a51336d4ec",
+    "record_date": "2024-07-11T04:41:16+00:00",
+    "category": "Sleep Duration",
+    "reading": 51.7,
+    "unit": "hours",
+    "device": "Glucometer"
+  },
+  {
+    "id": "157593fc-0dcd-4481-b38b-ea8368364525",
+    "account_id": "0faa8367-ac76-479a-a5d2-77757a535c2c",
+    "record_date": "2025-06-28T06:02:06+00:00",
+    "category": "Heart Rate",
+    "reading": 165.0,
+    "unit": "bpm",
+    "device": "Glucometer"
+  },
+  {
+    "id": "4b3942f4-69a9-4740-a0c0-b9f22146d683",
+    "account_id": "a1825683-9491-4b94-8ae6-a74c6454695a",
+    "record_date": "2024-12-24T12:25:00+00:00",
+    "category": "Sleep Duration",
+    "reading": 155.7,
+    "unit": "mmHg",
+    "device": "Thermometer"
+  },
+  {
+    "id": "8145fe72-17d1-467a-a4c6-1099c3697682",
+    "account_id": "f6e8995e-9c6e-4fdd-85cb-682db83f36a1",
+    "record_date": "2025-07-06T00:16:18+00:00",
+    "category": "Blood Pressure",
+    "reading": 64.4,
+    "unit": "bpm",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "e685a320-aca8-4af6-9ef6-d36e8508d69b",
+    "account_id": "c71cf91e-c963-4504-bcd0-a1c0c5d9f5af",
+    "record_date": "2025-07-26T06:29:06+00:00",
+    "category": "Steps",
+    "reading": 121.6,
+    "unit": "mmHg",
+    "device": "Glucometer"
+  },
+  {
+    "id": "c454a401-0e73-456b-a2a1-ee8e6cc4138d",
+    "account_id": "ea993911-f86c-418c-a193-b1098e9f31e3",
+    "record_date": "2025-05-07T17:51:20+00:00",
+    "category": "Steps",
+    "reading": 92.8,
+    "unit": "count",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "0dec86ca-280f-458b-9db7-7a916ba46adb",
+    "account_id": "595b44ca-c312-4562-a703-a7631ae2fe66",
+    "record_date": "2025-02-18T19:12:57+00:00",
+    "category": "Sleep Duration",
+    "reading": 114.6,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "83efd5f5-9729-4277-ba6b-91160aeb1898",
+    "account_id": "d1159968-399f-460d-ae46-e16a89b769c5",
+    "record_date": "2025-11-08T14:40:39+00:00",
+    "category": "Blood Pressure",
+    "reading": 130.0,
+    "unit": "bpm",
+    "device": "Thermometer"
+  },
+  {
+    "id": "1d159490-f2b7-49a9-a9e0-56b9a9b9b7fc",
+    "account_id": "04d2edca-34aa-455a-8f0a-2401339e1c9e",
+    "record_date": "2025-03-23T19:23:00+00:00",
+    "category": "Heart Rate",
+    "reading": 149.8,
+    "unit": "count",
+    "device": "Thermometer"
+  },
+  {
+    "id": "89d95ec2-8788-476b-bc7c-c189b56477ea",
+    "account_id": "6c8ae122-7956-4acb-9fac-9a58f33d7c0a",
+    "record_date": "2024-12-22T18:15:50+00:00",
+    "category": "Sleep Duration",
+    "reading": 92.5,
+    "unit": "mmHg",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "aef0ddad-11e0-43f7-a1e0-e70355e3887d",
+    "account_id": "723977c4-2af4-498a-acac-2c0709f759ae",
+    "record_date": "2025-05-24T11:26:57+00:00",
+    "category": "Heart Rate",
+    "reading": 80.9,
+    "unit": "mmHg",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "4b158d09-99b2-4913-bc21-9f946cc08c6e",
+    "account_id": "9efff8b8-6806-4598-b2d8-664c6c394ef5",
+    "record_date": "2025-09-12T23:00:34+00:00",
+    "category": "Blood Pressure",
+    "reading": 72.5,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "5bd7e18d-05be-4499-9f11-dc575f242d6b",
+    "account_id": "ea0eb12f-cc13-4da0-84bb-62e01f107838",
+    "record_date": "2024-10-22T15:00:44+00:00",
+    "category": "Sleep Duration",
+    "reading": 113.4,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "bb9c3a33-aac4-4cc5-a904-4abd048cca68",
+    "account_id": "9ce0b5c1-1e90-4a19-a3b2-89795789216d",
+    "record_date": "2024-07-14T18:06:16+00:00",
+    "category": "Sleep Duration",
+    "reading": 170.4,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "c087dbc6-060b-4203-8cbf-701275e7691a",
+    "account_id": "99824068-9c08-416a-86e6-ad58dc31fce8",
+    "record_date": "2025-06-21T18:42:13+00:00",
+    "category": "Steps",
+    "reading": 61.9,
+    "unit": "mmHg",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "c9374920-5ad1-4f8f-bb7a-fca56eded07d",
+    "account_id": "4ef81c13-d03d-449a-977d-2758cdf904f3",
+    "record_date": "2025-08-08T06:00:25+00:00",
+    "category": "Steps",
+    "reading": 59.5,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "347b5ae3-9b9e-4c2f-993a-de69923e78d6",
+    "account_id": "ff79eeed-f0e7-4437-b8e0-d44a188febf1",
+    "record_date": "2025-03-25T14:44:59+00:00",
+    "category": "Steps",
+    "reading": 136.4,
+    "unit": "hours",
+    "device": "Glucometer"
+  },
+  {
+    "id": "eb03d4e4-4884-4908-8235-67f4428de628",
+    "account_id": "c6cdf220-840c-4660-83a7-1bc45eca3f36",
+    "record_date": "2024-06-12T11:41:03+00:00",
+    "category": "Steps",
+    "reading": 139.8,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "2f00a0cf-9221-4e7f-a70b-3ead2b878037",
+    "account_id": "f1f5bf05-6fd1-48b7-b574-877657cdee2b",
+    "record_date": "2024-10-06T21:02:18+00:00",
+    "category": "Steps",
+    "reading": 57.6,
+    "unit": "hours",
+    "device": "Glucometer"
+  },
+  {
+    "id": "0b01a554-7ce6-4ede-b702-172193d8ca90",
+    "account_id": "484d5efe-5019-4def-9eb3-26bb355d436b",
+    "record_date": "2024-07-04T08:06:41+00:00",
+    "category": "Blood Pressure",
+    "reading": 63.8,
+    "unit": "bpm",
+    "device": "Wearable Tracker"
+  },
+  {
+    "id": "19324883-909f-42a1-9908-50684e7fd6a6",
+    "account_id": "7ad5dbfa-38bb-418f-b93e-42130ce11448",
+    "record_date": "2025-09-10T11:50:58+00:00",
+    "category": "Heart Rate",
+    "reading": 55.3,
+    "unit": "hours",
+    "device": "Thermometer"
+  },
+  {
+    "id": "c5846ff2-a19b-4301-a83d-a8a96897c38c",
+    "account_id": "eccb350d-b061-4f90-83d2-6cfb9e72e255",
+    "record_date": "2025-03-02T11:04:26+00:00",
+    "category": "Sleep Duration",
+    "reading": 178.9,
+    "unit": "mmHg",
+    "device": "Glucometer"
+  },
+  {
+    "id": "0b76044d-4f11-49f0-a9e4-e150b2753008",
+    "account_id": "b44c6936-698c-4567-afc8-f75ab76411f2",
+    "record_date": "2025-01-27T11:18:57+00:00",
+    "category": "Sleep Duration",
+    "reading": 95.5,
+    "unit": "hours",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "dde0a56d-fcc6-4553-8fa3-2cebd7d89709",
+    "account_id": "d5c60ab5-8e22-4c09-b77b-b0d19a11e94d",
+    "record_date": "2025-11-07T14:41:52+00:00",
+    "category": "Blood Pressure",
+    "reading": 178.7,
+    "unit": "mmHg",
+    "device": "Thermometer"
+  },
+  {
+    "id": "434ed941-e5b3-4dde-b5c0-8c634b6ac0bd",
+    "account_id": "97129611-04ca-4f57-82d0-d6389e727930",
+    "record_date": "2025-10-22T22:53:49+00:00",
+    "category": "Sleep Duration",
+    "reading": 51.9,
+    "unit": "count",
+    "device": "CPAP Machine"
+  },
+  {
+    "id": "40737fbf-e8b5-4c97-876d-85348751fab0",
+    "account_id": "0387f502-b4a6-49dc-98e5-4ad426604934",
+    "record_date": "2025-05-09T02:16:12+00:00",
+    "category": "Heart Rate",
+    "reading": 133.3,
+    "unit": "bpm",
+    "device": "CPAP Machine"
+  }
+]
