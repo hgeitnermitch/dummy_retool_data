@@ -1,0 +1,3285 @@
+[
+  {
+    "care_plan_id": "8de70003-acfb-49ab-bd81-e183ed0cb580",
+    "enrollment_id": "a4b63639-5816-40f9-bc7c-1bd7592333f6",
+    "patient_id": "65e5c18b-ea2a-45f6-a196-20b212a6d9ba",
+    "navigator_id": "b44c6936-698c-4567-afc8-f75ab76411f2",
+    "care_type": "rpm",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Post Discharge",
+    "start_date": "2021-04-14T18:16:46+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2021-04-14T18:16:46Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "b44c6936-698c-4567-afc8-f75ab76411f2"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 154,
+          "diastolic": 95,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 3762,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 7565
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 4514
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5663
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 7565
+            }
+          }
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "type": "Cellular BP Cuff",
+        "vendor": "Tenovi",
+        "serial": "BP-406858",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      },
+      {
+        "type": "Cellular Scale",
+        "vendor": "Tenovi",
+        "serial": "SC-441360",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      }
+    ],
+    "monitoring_protocol": {
+      "check_in_frequency": "daily",
+      "vitals": {
+        "bp": {
+          "thresholds": {
+            "systolic_high": 160,
+            "diastolic_high": 95,
+            "systolic_low": 90,
+            "diastolic_low": 60
+          },
+          "days_in_threshold_goal": 24
+        },
+        "weight": {
+          "thresholds": {
+            "gain_3d": 5,
+            "loss_3d": 5
+          }
+        }
+      },
+      "alerts": [
+        {
+          "rule": "BP above 160/95 twice in 48h",
+          "priority": "high",
+          "escalation": [
+            "Navigator outreach",
+            "Notify PCP",
+            "ER precautions"
+          ]
+        },
+        {
+          "rule": "No readings 3 days",
+          "priority": "medium",
+          "escalation": [
+            "Text reminder",
+            "Phone call"
+          ]
+        }
+      ]
+    },
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Patient",
+        "task": "Take BP each morning",
+        "frequency": "daily"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Review vitals & triage alerts",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99453",
+        "99454",
+        "99457",
+        "99458"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 159,
+          "diastolic": 93
+        },
+        "steps": 3487,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 8048,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "RPM at Trilogy MHC for Post Discharge",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "21f3275b-369c-4d2d-ba5e-2c832b6aed60",
+    "enrollment_id": "2e2c5a22-adf9-4748-9636-c2482664fe82",
+    "patient_id": "ff6c45fb-3e17-4c87-a643-0012939c8540",
+    "navigator_id": "9ce0b5c1-1e90-4a19-a3b2-89795789216d",
+    "care_type": "ccm",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Chronic Care",
+    "start_date": "2022-06-09T16:27:53+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2022-06-09T16:27:53Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "9ce0b5c1-1e90-4a19-a3b2-89795789216d"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 157,
+          "diastolic": 94,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 1506,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 8466
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 1807
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 4986
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 8466
+            }
+          }
+        ]
+      },
+      {
+        "name": "Care coordination minutes",
+        "baseline": 0,
+        "target": 20,
+        "timeframe_days": 30,
+        "kpis": [
+          "documented_minutes",
+          "completed_outreach"
+        ]
+      }
+    ],
+    "devices": [],
+    "monitoring_protocol": {},
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Care plan update",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Medication review",
+        "frequency": "monthly"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99490",
+        "99439"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 147,
+          "diastolic": 88
+        },
+        "steps": 4037,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 6921,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "CCM at Trilogy MHC for Chronic Care",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "d112e1c5-209c-446e-8b73-4652ff79f082",
+    "enrollment_id": "88b963ed-a7dd-4e50-b4eb-cc091c92d22e",
+    "patient_id": "62aae1ab-689a-488c-8780-0a5aa1a0345f",
+    "navigator_id": "b44c6936-698c-4567-afc8-f75ab76411f2",
+    "care_type": "ccm",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Chronic Care",
+    "start_date": "2021-05-07T17:08:48+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2021-05-07T17:08:48Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "b44c6936-698c-4567-afc8-f75ab76411f2"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 148,
+          "diastolic": 97,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 2964,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 8890
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 3556
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5927
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 8890
+            }
+          }
+        ]
+      },
+      {
+        "name": "Care coordination minutes",
+        "baseline": 0,
+        "target": 20,
+        "timeframe_days": 30,
+        "kpis": [
+          "documented_minutes",
+          "completed_outreach"
+        ]
+      }
+    ],
+    "devices": [],
+    "monitoring_protocol": {},
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Care plan update",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Medication review",
+        "frequency": "monthly"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99490",
+        "99439"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 148,
+          "diastolic": 85
+        },
+        "steps": 4203,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 8712,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "CCM at Trilogy MHC for Chronic Care",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "a593c06b-2ee5-4190-a69e-b8a5c938212c",
+    "enrollment_id": "5887d3db-1a1e-4283-b0f9-7321d5e26eea",
+    "patient_id": "98c541a0-a459-4ab8-85a3-911afa626484",
+    "navigator_id": "484d5efe-5019-4def-9eb3-26bb355d436b",
+    "care_type": "rpm",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Chronic Care",
+    "start_date": "2020-04-26T01:41:38+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2020-04-26T01:41:38Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "484d5efe-5019-4def-9eb3-26bb355d436b"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 145,
+          "diastolic": 85,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 3555,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 8747
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 4266
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 6151
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 8747
+            }
+          }
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "type": "Cellular BP Cuff",
+        "vendor": "Tenovi",
+        "serial": "BP-940648",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      },
+      {
+        "type": "Cellular Scale",
+        "vendor": "Tenovi",
+        "serial": "SC-432951",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      }
+    ],
+    "monitoring_protocol": {
+      "check_in_frequency": "daily",
+      "vitals": {
+        "bp": {
+          "thresholds": {
+            "systolic_high": 160,
+            "diastolic_high": 95,
+            "systolic_low": 90,
+            "diastolic_low": 60
+          },
+          "days_in_threshold_goal": 24
+        },
+        "weight": {
+          "thresholds": {
+            "gain_3d": 5,
+            "loss_3d": 5
+          }
+        }
+      },
+      "alerts": [
+        {
+          "rule": "BP above 160/95 twice in 48h",
+          "priority": "high",
+          "escalation": [
+            "Navigator outreach",
+            "Notify PCP",
+            "ER precautions"
+          ]
+        },
+        {
+          "rule": "No readings 3 days",
+          "priority": "medium",
+          "escalation": [
+            "Text reminder",
+            "Phone call"
+          ]
+        }
+      ]
+    },
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Patient",
+        "task": "Take BP each morning",
+        "frequency": "daily"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Review vitals & triage alerts",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99453",
+        "99454",
+        "99457",
+        "99458"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 151,
+          "diastolic": 87
+        },
+        "steps": 2787,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 8727,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "RPM at Trilogy MHC for Chronic Care",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "e56663bf-26c3-4ab0-ba37-3aa496d3f70c",
+    "enrollment_id": "9f256104-3c2c-40ce-88e4-559b69b97816",
+    "patient_id": "4791e39f-5d85-4178-83e8-e50621382813",
+    "navigator_id": "97129611-04ca-4f57-82d0-d6389e727930",
+    "care_type": "rpm",
+    "status": "paused",
+    "location": "Trilogy MHC",
+    "program_reason": "Chronic Care",
+    "start_date": "2023-07-17T02:11:59+00:00",
+    "end_date": null,
+    "hold_reason": "Patient traveling",
+    "consent": {
+      "method": "verbal",
+      "date": "2023-07-17T02:11:59Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "97129611-04ca-4f57-82d0-d6389e727930"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 143,
+          "diastolic": 84,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 3954,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 6502
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 4744
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5228
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 6502
+            }
+          }
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "type": "Cellular BP Cuff",
+        "vendor": "Tenovi",
+        "serial": "BP-403683",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      },
+      {
+        "type": "Cellular Scale",
+        "vendor": "Tenovi",
+        "serial": "SC-670135",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      }
+    ],
+    "monitoring_protocol": {
+      "check_in_frequency": "daily",
+      "vitals": {
+        "bp": {
+          "thresholds": {
+            "systolic_high": 160,
+            "diastolic_high": 95,
+            "systolic_low": 90,
+            "diastolic_low": 60
+          },
+          "days_in_threshold_goal": 24
+        },
+        "weight": {
+          "thresholds": {
+            "gain_3d": 5,
+            "loss_3d": 5
+          }
+        }
+      },
+      "alerts": [
+        {
+          "rule": "BP above 160/95 twice in 48h",
+          "priority": "high",
+          "escalation": [
+            "Navigator outreach",
+            "Notify PCP",
+            "ER precautions"
+          ]
+        },
+        {
+          "rule": "No readings 3 days",
+          "priority": "medium",
+          "escalation": [
+            "Text reminder",
+            "Phone call"
+          ]
+        }
+      ]
+    },
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Patient",
+        "task": "Take BP each morning",
+        "frequency": "daily"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Review vitals & triage alerts",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99453",
+        "99454",
+        "99457",
+        "99458"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 148,
+          "diastolic": 86
+        },
+        "steps": 3572,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 7467,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "RPM at Trilogy MHC for Chronic Care",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "362c55de-75ae-4103-a93e-e1dd503f8718",
+    "enrollment_id": "8d75fe6a-b46c-4e28-becf-ce8e0f802657",
+    "patient_id": "3f7f4bc1-10ef-49af-b404-bf0737ed8011",
+    "navigator_id": "c6cdf220-840c-4660-83a7-1bc45eca3f36",
+    "care_type": "behavioral_health",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Chronic Care",
+    "start_date": "2023-03-26T12:47:29+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2023-03-26T12:47:29Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "c6cdf220-840c-4660-83a7-1bc45eca3f36"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      },
+      {
+        "role": "Behavioral Health Coach",
+        "name": "Assigned"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 145,
+          "diastolic": 91,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 4282,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 7016
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 5138
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5649
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 7016
+            }
+          }
+        ]
+      },
+      {
+        "name": "Reduce PHQ-9",
+        "baseline": 12,
+        "target": 3,
+        "timeframe_days": 90,
+        "kpis": [
+          "phq9_score",
+          "session_attendance"
+        ]
+      },
+      {
+        "name": "Reduce GAD-7",
+        "baseline": 12,
+        "target": 6,
+        "timeframe_days": 90,
+        "kpis": [
+          "gad7_score"
+        ]
+      }
+    ],
+    "devices": [],
+    "monitoring_protocol": {},
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Coach",
+        "task": "Weekly CBT session",
+        "frequency": "weekly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Daily mood check-in",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Sleep hygiene",
+      "Stress"
+    ],
+    "safety_plan": {
+      "crisis_line": "988",
+      "instructions": "If severe symptoms, call 911."
+    },
+    "billing": {
+      "cpt_codes": [
+        "99484"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": null,
+        "steps": null,
+        "phq9": 11,
+        "gad7": 16
+      },
+      "targets": {
+        "bp": null,
+        "steps": null,
+        "phq9": 4,
+        "gad7": 4
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "BEHAVIORAL_HEALTH at Trilogy MHC for Chronic Care",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "1de60483-8600-4477-99aa-67f4d6c3fdb8",
+    "enrollment_id": "6748ed50-8245-4a90-a0b5-2bfbbdc53236",
+    "patient_id": "da4f2611-85b8-4ceb-bbd0-fc602bd704c3",
+    "navigator_id": "9ce0b5c1-1e90-4a19-a3b2-89795789216d",
+    "care_type": "rpm",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Post Discharge",
+    "start_date": "2023-06-20T12:18:23+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2023-06-20T12:18:23Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "9ce0b5c1-1e90-4a19-a3b2-89795789216d"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 159,
+          "diastolic": 92,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 3238,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 7773
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 3885
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5505
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 7773
+            }
+          }
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "type": "Cellular BP Cuff",
+        "vendor": "Tenovi",
+        "serial": "BP-124056",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      },
+      {
+        "type": "Cellular Scale",
+        "vendor": "Tenovi",
+        "serial": "SC-735912",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": false
+      }
+    ],
+    "monitoring_protocol": {
+      "check_in_frequency": "daily",
+      "vitals": {
+        "bp": {
+          "thresholds": {
+            "systolic_high": 160,
+            "diastolic_high": 95,
+            "systolic_low": 90,
+            "diastolic_low": 60
+          },
+          "days_in_threshold_goal": 24
+        },
+        "weight": {
+          "thresholds": {
+            "gain_3d": 5,
+            "loss_3d": 5
+          }
+        }
+      },
+      "alerts": [
+        {
+          "rule": "BP above 160/95 twice in 48h",
+          "priority": "high",
+          "escalation": [
+            "Navigator outreach",
+            "Notify PCP",
+            "ER precautions"
+          ]
+        },
+        {
+          "rule": "No readings 3 days",
+          "priority": "medium",
+          "escalation": [
+            "Text reminder",
+            "Phone call"
+          ]
+        }
+      ]
+    },
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Patient",
+        "task": "Take BP each morning",
+        "frequency": "daily"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Review vitals & triage alerts",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99453",
+        "99454",
+        "99457",
+        "99458"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 160,
+          "diastolic": 82
+        },
+        "steps": 3971,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 8868,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "RPM at Trilogy MHC for Post Discharge",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "f3f4bb09-662e-41f8-8a86-b5e6b715c6b4",
+    "enrollment_id": "a9847ff9-3476-4314-b7a5-9efdde0c8e25",
+    "patient_id": "7f498c8a-42ff-4f38-bcaf-0e90074b1790",
+    "navigator_id": "b44c6936-698c-4567-afc8-f75ab76411f2",
+    "care_type": "ccm",
+    "status": "paused",
+    "location": "Trilogy MHC",
+    "program_reason": "Post Discharge",
+    "start_date": "2022-07-07T01:22:10+00:00",
+    "end_date": null,
+    "hold_reason": "Patient traveling",
+    "consent": {
+      "method": "verbal",
+      "date": "2022-07-07T01:22:10Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "b44c6936-698c-4567-afc8-f75ab76411f2"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 151,
+          "diastolic": 98,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 2065,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 7578
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 2478
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 4821
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 7578
+            }
+          }
+        ]
+      },
+      {
+        "name": "Care coordination minutes",
+        "baseline": 0,
+        "target": 20,
+        "timeframe_days": 30,
+        "kpis": [
+          "documented_minutes",
+          "completed_outreach"
+        ]
+      }
+    ],
+    "devices": [],
+    "monitoring_protocol": {},
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Care plan update",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Medication review",
+        "frequency": "monthly"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99490",
+        "99439"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 160,
+          "diastolic": 88
+        },
+        "steps": 4031,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 7025,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "CCM at Trilogy MHC for Post Discharge",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "0ed061f8-fd7b-4b78-8595-0ef4b9f34976",
+    "enrollment_id": "6afe4e35-1c3c-49af-bd02-1c4f6fa537f1",
+    "patient_id": "6be3b5bd-faca-46aa-8b74-1cd379632959",
+    "navigator_id": "0387f502-b4a6-49dc-98e5-4ad426604934",
+    "care_type": "behavioral_health",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Chronic Care",
+    "start_date": "2024-06-27T02:08:18+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2024-06-27T02:08:18Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "0387f502-b4a6-49dc-98e5-4ad426604934"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      },
+      {
+        "role": "Behavioral Health Coach",
+        "name": "Assigned"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 158,
+          "diastolic": 89,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 4364,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 7376
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 5236
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5870
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 7376
+            }
+          }
+        ]
+      },
+      {
+        "name": "Reduce PHQ-9",
+        "baseline": 17,
+        "target": 6,
+        "timeframe_days": 90,
+        "kpis": [
+          "phq9_score",
+          "session_attendance"
+        ]
+      },
+      {
+        "name": "Reduce GAD-7",
+        "baseline": 14,
+        "target": 5,
+        "timeframe_days": 90,
+        "kpis": [
+          "gad7_score"
+        ]
+      }
+    ],
+    "devices": [],
+    "monitoring_protocol": {},
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Coach",
+        "task": "Weekly CBT session",
+        "frequency": "weekly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Daily mood check-in",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Sleep hygiene",
+      "Stress"
+    ],
+    "safety_plan": {
+      "crisis_line": "988",
+      "instructions": "If severe symptoms, call 911."
+    },
+    "billing": {
+      "cpt_codes": [
+        "99484"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": null,
+        "steps": null,
+        "phq9": 12,
+        "gad7": 11
+      },
+      "targets": {
+        "bp": null,
+        "steps": null,
+        "phq9": 3,
+        "gad7": 4
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "BEHAVIORAL_HEALTH at Trilogy MHC for Chronic Care",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  },
+  {
+    "care_plan_id": "a9e0f9df-8f7b-47ce-8637-6e6a4833f2ae",
+    "enrollment_id": "c94630fb-54bf-4544-bffe-5d4dd8f0d480",
+    "patient_id": "473745ff-3a93-4303-b03a-fe5ed4348599",
+    "navigator_id": "f1f5bf05-6fd1-48b7-b574-877657cdee2b",
+    "care_type": "rpm",
+    "status": "active",
+    "location": "Trilogy MHC",
+    "program_reason": "Post Discharge",
+    "start_date": "2021-05-29T20:11:11+00:00",
+    "end_date": null,
+    "hold_reason": null,
+    "consent": {
+      "method": "verbal",
+      "date": "2021-05-29T20:11:11Z",
+      "witness": "Navigator"
+    },
+    "eligibility": {
+      "criteria_met": [
+        "Qualifying condition or risk",
+        "Able to use phone/SMS"
+      ],
+      "notes": "Referred by PCP"
+    },
+    "care_team": [
+      {
+        "role": "Navigator",
+        "id": "f1f5bf05-6fd1-48b7-b574-877657cdee2b"
+      },
+      {
+        "role": "Primary Care Provider",
+        "name": "On file"
+      }
+    ],
+    "goals": [
+      {
+        "name": "Lower BP",
+        "baseline": {
+          "systolic": 151,
+          "diastolic": 91,
+          "source": "home cuff"
+        },
+        "target": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "timeframe_days": 90,
+        "kpis": [
+          "weekly_avg_bp",
+          "days_in_threshold",
+          "med_adherence"
+        ],
+        "milestones": [
+          {
+            "day": 30,
+            "expected": {
+              "systolic": 138,
+              "diastolic": 86
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "systolic": 134,
+              "diastolic": 82
+            }
+          },
+          {
+            "day": 90,
+            "expected": {
+              "systolic": 130,
+              "diastolic": 80
+            }
+          }
+        ]
+      },
+      {
+        "name": "Increase steps",
+        "baseline": {
+          "avg_daily_steps": 3303,
+          "source": "phone pedometer"
+        },
+        "target": {
+          "avg_daily_steps": 6798
+        },
+        "timeframe_days": 60,
+        "kpis": [
+          "avg_daily_steps",
+          "active_days_per_week"
+        ],
+        "milestones": [
+          {
+            "day": 14,
+            "expected": {
+              "avg_daily_steps": 3963
+            }
+          },
+          {
+            "day": 30,
+            "expected": {
+              "avg_daily_steps": 5050
+            }
+          },
+          {
+            "day": 60,
+            "expected": {
+              "avg_daily_steps": 6798
+            }
+          }
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "type": "Cellular BP Cuff",
+        "vendor": "Tenovi",
+        "serial": "BP-372397",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      },
+      {
+        "type": "Cellular Scale",
+        "vendor": "Tenovi",
+        "serial": "SC-570839",
+        "shipped_date": "2025-08-13T19:05:28Z",
+        "training_completed": true
+      }
+    ],
+    "monitoring_protocol": {
+      "check_in_frequency": "daily",
+      "vitals": {
+        "bp": {
+          "thresholds": {
+            "systolic_high": 160,
+            "diastolic_high": 95,
+            "systolic_low": 90,
+            "diastolic_low": 60
+          },
+          "days_in_threshold_goal": 24
+        },
+        "weight": {
+          "thresholds": {
+            "gain_3d": 5,
+            "loss_3d": 5
+          }
+        }
+      },
+      "alerts": [
+        {
+          "rule": "BP above 160/95 twice in 48h",
+          "priority": "high",
+          "escalation": [
+            "Navigator outreach",
+            "Notify PCP",
+            "ER precautions"
+          ]
+        },
+        {
+          "rule": "No readings 3 days",
+          "priority": "medium",
+          "escalation": [
+            "Text reminder",
+            "Phone call"
+          ]
+        }
+      ]
+    },
+    "tasks_by_role": [
+      {
+        "actor": "Navigator",
+        "task": "Monthly outreach call",
+        "frequency": "monthly"
+      },
+      {
+        "actor": "Patient",
+        "task": "Confirm contact preferences",
+        "frequency": "once"
+      },
+      {
+        "actor": "Patient",
+        "task": "Take BP each morning",
+        "frequency": "daily"
+      },
+      {
+        "actor": "Navigator",
+        "task": "Review vitals & triage alerts",
+        "frequency": "daily"
+      }
+    ],
+    "interventions": {
+      "escalation_matrix": [
+        {
+          "level": 1,
+          "action": "Navigator outreach within 24h"
+        },
+        {
+          "level": 2,
+          "action": "Notify PCP"
+        },
+        {
+          "level": 3,
+          "action": "Emergency instructions"
+        }
+      ]
+    },
+    "education_resources": [
+      {
+        "title": "Hypertension 101",
+        "format": "pdf"
+      },
+      {
+        "title": "Walking program starter",
+        "format": "pdf"
+      },
+      {
+        "title": "How to use your device",
+        "format": "video"
+      }
+    ],
+    "communication_preferences": {
+      "phone": true,
+      "sms": true,
+      "email": false,
+      "best_times": [
+        "9:00-11:00",
+        "14:00-16:00"
+      ]
+    },
+    "barriers": [
+      "Transportation",
+      "Diet adherence"
+    ],
+    "safety_plan": {},
+    "billing": {
+      "cpt_codes": [
+        "99453",
+        "99454",
+        "99457",
+        "99458"
+      ],
+      "monthly_minutes_goal": 20
+    },
+    "review_schedule": {
+      "next_review": "2025-09-12T19:05:28Z",
+      "cadence": "monthly"
+    },
+    "outcomes": {
+      "baseline": {
+        "bp": {
+          "systolic": 154,
+          "diastolic": 86
+        },
+        "steps": 4645,
+        "phq9": null,
+        "gad7": null
+      },
+      "targets": {
+        "bp": {
+          "systolic": 130,
+          "diastolic": 80
+        },
+        "steps": 7502,
+        "phq9": null,
+        "gad7": null
+      }
+    },
+    "audit_log": [
+      {
+        "ts": "2025-08-13T19:05:28Z",
+        "actor": "system",
+        "event": "care_plan_created",
+        "details": {
+          "source": "generated"
+        }
+      }
+    ],
+    "attachments": [],
+    "care_plan_version": 1,
+    "last_updated": "2025-08-13T19:05:28Z",
+    "ui": {
+      "step_order": [
+        "overview",
+        "people",
+        "eligibility_consent",
+        "goals",
+        "devices_monitoring",
+        "tasks",
+        "education",
+        "communication",
+        "billing",
+        "review_outcomes",
+        "signoff"
+      ],
+      "components": {
+        "overview": [
+          "overview.summary",
+          "overview.key_points"
+        ],
+        "people": [
+          "care_team",
+          "communication_preferences"
+        ],
+        "eligibility_consent": [
+          "consent",
+          "eligibility"
+        ],
+        "goals": [
+          "goals"
+        ],
+        "devices_monitoring": [
+          "devices",
+          "monitoring_protocol"
+        ],
+        "tasks": [
+          "tasks_by_role",
+          "interventions.escalation_matrix"
+        ],
+        "education": [
+          "education_resources"
+        ],
+        "communication": [
+          "communication_preferences",
+          "barriers"
+        ],
+        "billing": [
+          "billing"
+        ],
+        "review_outcomes": [
+          "review_schedule",
+          "outcomes"
+        ],
+        "signoff": [
+          "signoff"
+        ]
+      }
+    },
+    "overview": {
+      "summary": "RPM at Trilogy MHC for Post Discharge",
+      "key_points": [
+        "Patient-centered goals",
+        "Clear escalation",
+        "Monthly review"
+      ]
+    },
+    "signoff": {
+      "patient_signature_on_file": true,
+      "navigator_signature": "On file"
+    }
+  }
+]
