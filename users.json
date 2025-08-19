@@ -1,0 +1,42 @@
+[
+  {
+    "_id": { "$oid": "64ab1c2e3f8a2dda7fc56c17" },
+    "objectId": "obj-001",
+    "address": {
+      "line1": "123 Main St",
+      "city": "Indianapolis",
+      "state": "IN",
+      "postal": "46204"
+    },
+    "careObjectId": "c-001",
+    "dob": "1950-01-01",
+    "external_id": "PAT-001",
+    "first_name": "John",
+    "last_name": "Doe",
+    "patientId": "p-001",
+    "source": "manual",
+    "userState": "active",
+    "ingested_at": { "$date": "2025-08-18T12:00:00Z" },
+    "updated_at": { "$date": "2025-08-18T12:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "64ab1c2e3f8a2dda7fc56c18" },
+    "objectId": "obj-002",
+    "address": {
+      "line1": "456 Oak Ave",
+      "city": "Carmel",
+      "state": "IN",
+      "postal": "46032"
+    },
+    "careObjectId": "c-002",
+    "dob": "1965-06-15",
+    "external_id": "PAT-002",
+    "first_name": "Mary",
+    "last_name": "Smith",
+    "patientId": "p-002",
+    "source": "manual",
+    "userState": "active",
+    "ingested_at": { "$date": "2025-08-18T12:00:00Z" },
+    "updated_at": { "$date": "2025-08-18T12:00:00Z" }
+  }
+]
