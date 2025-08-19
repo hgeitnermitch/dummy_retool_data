@@ -1,0 +1,148 @@
+[
+  {
+    "_id": { "$oid": "689f9ca02f8a2dda7fc56c17" },
+    "sessionId": "sess-001",
+    "action": "Phone Call",
+    "billing": {
+      "costIncluded": 0,
+      "costPurchased": 0
+    },
+    "direction": "Inbound",
+    "duration": 0,
+    "durationMs": 0,
+    "from": {
+      "name": "John Doe",
+      "phoneNumber": "+13175551234",
+      "location": "Indianapolis, IN"
+    },
+    "id": 1,
+    "internalType": "call",
+    "lastModifiedTime": "2025-08-18T14:12:00Z",
+    "legs": [
+      {
+        "startTime": "2025-08-18T14:10:00Z",
+        "duration": 0,
+        "durationMs": 0,
+        "type": "Voice",
+        "internalType": "call_leg",
+        "direction": "Inbound",
+        "action": "Ringing",
+        "result": "Voicemail",
+        "to": {
+          "phoneNumber": "+18885551234"
+        },
+        "from": {
+          "name": "John Doe",
+          "phoneNumber": "+13175551234",
+          "location": "Indianapolis, IN"
+        },
+        "telephonySessionId": "sess-001",
+        "partyId": "p-001",
+        "transport": "PSTN",
+        "billing": {
+          "costIncluded": 0,
+          "costPurchased": 0
+        },
+        "legType": "master",
+        "master": true
+      },
+      {
+        "startTime": "2025-08-18T14:10:05Z",
+        "duration": 30,
+        "durationMs": 30000,
+        "type": "Voice",
+        "internalType": "call_leg",
+        "direction": "Inbound",
+        "action": "Connect",
+        "result": "Busy",
+        "to": {
+          "name": "Support Queue",
+          "phoneNumber": "+18885551234",
+          "extensionId": "1001"
+        },
+        "from": {
+          "name": "John Doe",
+          "phoneNumber": "+13175551234",
+          "location": "Indianapolis, IN"
+        },
+        "extension": {
+          "uri": "sip:1001@pbx.fake",
+          "id": "1001"
+        },
+        "telephonySessionId": "sess-001",
+        "partyId": "p-001-leg2",
+        "transport": "SIP",
+        "legType": "secondary"
+      }
+    ],
+    "partyId": "p-001",
+    "result": "Voicemail",
+    "startTime": "2025-08-18T14:10:00Z",
+    "telephonySessionId": "sess-001",
+    "to": {
+      "phoneNumber": "+18885551234"
+    },
+    "transport": "PSTN",
+    "type": "Voice",
+    "uri": "fake://call/1"
+  },
+  {
+    "_id": { "$oid": "689f9ca02f8a2dda7fc56c18" },
+    "sessionId": "sess-002",
+    "action": "Phone Call",
+    "billing": {
+      "costIncluded": 0.10,
+      "costPurchased": 0.25
+    },
+    "direction": "Outbound",
+    "duration": 420,
+    "durationMs": 420000,
+    "from": {
+      "name": "Navigator Jane",
+      "phoneNumber": "+18885551234",
+      "location": "Indianapolis, IN"
+    },
+    "id": 2,
+    "internalType": "call",
+    "lastModifiedTime": "2025-08-18T15:12:00Z",
+    "legs": [
+      {
+        "startTime": "2025-08-18T15:00:00Z",
+        "duration": 420,
+        "durationMs": 420000,
+        "type": "Voice",
+        "internalType": "call_leg",
+        "direction": "Outbound",
+        "action": "Connect",
+        "result": "Completed",
+        "to": {
+          "phoneNumber": "+13175559876"
+        },
+        "from": {
+          "name": "Navigator Jane",
+          "phoneNumber": "+18885551234",
+          "location": "Indianapolis, IN"
+        },
+        "telephonySessionId": "sess-002",
+        "partyId": "p-002",
+        "transport": "PSTN",
+        "billing": {
+          "costIncluded": 0.10,
+          "costPurchased": 0.25
+        },
+        "legType": "master",
+        "master": true
+      }
+    ],
+    "partyId": "p-002",
+    "result": "Completed",
+    "startTime": "2025-08-18T15:00:00Z",
+    "telephonySessionId": "sess-002",
+    "to": {
+      "phoneNumber": "+13175559876"
+    },
+    "transport": "PSTN",
+    "type": "Voice",
+    "uri": "fake://call/2"
+  }
+]
